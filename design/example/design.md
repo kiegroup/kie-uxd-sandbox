@@ -1,7 +1,7 @@
 # Pattern Name Goes Here
 
 ## Pattern Variation 1
-![Title of image](img/image-name-goes-here.jpg)
+![Title of image](design/example/img/image-name-goes-here.jpg)
 
   1. **Description Label One:** This is what the callout is pointing to and why it matters
 
@@ -14,7 +14,7 @@
 
 ## Pattern Variation 2
 
-![Title of image 2](img/image-name-goes-here-2.jpg)
+![Title of image 2](design/example/img/image-name-goes-here-2.jpg)
 
 1. **Description Label One:**
   - This is what the callout is pointing to and why it matters
