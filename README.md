@@ -3,7 +3,13 @@ Sandbox for UXD team to document designs and prototype the front end.
 
 Designs are located in subfolders under /design. Supporting graphics are located in /images folders within those folders.
 
-[All designs and prototypes](https://srambach.github.io/bxms-uxd-sandbox/).
+Sandbox designs and prototypes available at [https://srambach.github.io/bxms-uxd-sandbox/](https://srambach.github.io/bxms-uxd-sandbox/)
 
-https://srambach.github.io/bxms-uxd-sandbox/
-Styling for design pages is in /assets and /layouts, taken from https://github.com/openshift/openshift-origin-design
+
+[Template for a design discovery document](/design/example/discovery)
+
+[Template for a design overview document](/design/example/overview)
+
+[Template for a detailed design document](/design/example/design)
+
+[Prototype template](/html/prototype_template.html)
