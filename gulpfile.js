@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
-    less = require('gulp-less'),
+    less = require('gulp-less-sourcemap'),
     plumber = require('gulp-plumber'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload;
@@ -15,11 +15,19 @@ gulp.task('scripts', function(){
 
 // Compiles less on to /css
 gulp.task('less', function () {
-  gulp.src('less/**/*.less')
-   .pipe(plumber())
-   .pipe(less())
-   .pipe(gulp.dest('css'))
-   .pipe(reload({stream:true}));
+    gulp.src('less/**/*.less')
+    .pipe(plumber())
+    .pipe(less())
+        // .pipe(less({
+        //     paths: [ path.join('node_modules'), path.join('node_modules/patternfly/node_modules') ],
+        //     sourceMap: {
+        //         //sourceMapRootpath: '../less' // This one for KIE files (Optional absolute or relative path to your LESS files)
+        //         sourceMapRootpath: '/' // This one for PF files (Optional absolute or relative path to your LESS files)
+        //     }
+        //
+        // }))
+        .pipe(gulp.dest('css'))
+        .pipe(reload({stream:true}));
 });
 
 // reload server
@@ -44,4 +52,4 @@ gulp.task('watch', function(){
 });
 
 // deploys
-gulp.task('default',  ['scripts', 'less','browser-sync','watch']); 
+gulp.task('default',  ['scripts', 'less','browser-sync','watch']);
