@@ -3,7 +3,7 @@
 ## Pattern Variation 1
 ![Title of image](img/image-name-goes-here.jpg)
 
-  1. **Description Label One:** This is what the callout is pointing to and why it matters
+  1. **Description Label One:** This is what the callout is pointing to and why it matters. I just added a sentence.
 
   1. **Description Label Two:** (optional):
     - This is what the callout is pointing to and why it matters
