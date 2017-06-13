@@ -1,5 +1,5 @@
 # bxms-uxd-sandbox
-This is a sandbox for the UXD team to document designs and to prototype the front end for BxMS.
+This is the BxMS user experience team's project sandbox. It is a central respository for JBoss BPM/BRMS design documents and user interface prototypes. 
 
 ## Design contributions
 [Get started with SourceTree](https://www.sourcetreeapp.com/)
