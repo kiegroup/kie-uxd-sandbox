@@ -1,5 +1,5 @@
 # bxms-uxd-sandbox
-This is the BxMS user experience team's project sandbox. It is a central respository for JBoss BPM/BRMS design documents and user interface prototypes. 
+This is the BxMS user experience team's project sandbox. It is a central respository for JBoss BPM/BRMS design documents and user interface prototypes.
 
 ## Design contributions
 [Get started with SourceTree](https://www.sourcetreeapp.com/)
@@ -9,8 +9,8 @@ Then refer to the excellent [instructions on Patternfly Design] for details abou
 To [work on multiple features at once](https://github.com/patternfly/patternfly-design/wiki/Multiple-Branches), branches can be created to encompass both the design and implementation of a feature.
 
 ## Implementation contributions
-Developers should first clone the repository.
-Create a new folder under `/prototype` for the prototype code.
+Developers should first clone the repository. Then,
+- Create a copy of the `/prototype/example` directory.
 - `cd` into the cloned directory.
 - Run `npm install`.
 - Run the server using `gulp`.
