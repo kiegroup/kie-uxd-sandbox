@@ -10,7 +10,8 @@ To [work on multiple features at once](https://github.com/patternfly/patternfly-
 
 ## Implementation contributions
 Developers should first clone the repository.
-- `cd` into the directory.
+Create a new folder under `/prototype` for the prototype code.
+- `cd` into the cloned directory.
 - Run `npm install`.
 - Run the server using `gulp`.
 The project will automatically open in the browser, and changes will be shown immediately.
@@ -20,7 +21,7 @@ Designs are located in subfolders under /design. Supporting graphics are located
 
 Sandbox designs and prototypes available at [https://srambach.github.io/bxms-uxd-sandbox/](https://srambach.github.io/bxms-uxd-sandbox/)
 
-HTML prototypes are located in /html with less files in /less. CSS will be generated and placed in the /css folder.
+HTML prototypes are located in /prototype with a folder for each separate prototype. HTML files are at the top level, with less files in /less. CSS will be generated and placed in the /css folder.
 
 Note: The layouts and assets folders are used to style the Github Pages site.
 
@@ -31,4 +32,4 @@ Note: The layouts and assets folders are used to style the Github Pages site.
 
 [Template for a detailed design document](design/example/design)
 
-[Prototype template](/html/prototype_template.html)
+[Prototype template](/prototype)
