@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Asset</title>
+  <title>BPM - Team</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -70,43 +70,61 @@
   <div class="secondbar">
     <ol class="breadcrumb">
       <li><a href="design.html">Teams</a></li>
-      <li><a href="team.html">My Team</a></li>
-      <li><a href="project.html">Project Name</a></li>
-      <li class="active">Asset Name</li>
+      <li class="active">My Team</li>
     </ol>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-3">
-        <h1>Asset Name</h1>
+        <h1>My Team</h1>
       </div>
       <div class="col-xs-9">
-        <div class="landingbutton">
+        <div class="landingbutton"><a href="#" class="btn btn-primary">New Project</a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-xs-12">
+        <form class="search-pf has-button">
+          <div class="form-group has-clear">
+            <div class="search-pf-input-group">
+              <label for="search1" class="sr-only">Search</label>
+              <input id="search1" type="search" class="form-control" placeholder="Search">
+              <button type="button" class="clear" aria-hidden="true" style="display: none;"><span class="pficon pficon-close"></span></button>
+            </div>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-default" type="submit"><span class="fa fa-search"></span></button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8 col-xs-12">
+        <div class="pull-right">
+          <span style="margin-right: 10px;">1 - 3 of 22</span>
           <div class="btn-group">
-            <div class="btn-group">
-              <a href="#" class="btn btn-default btn-dropdown" data-toggle="dropdown">Version 4</a>
-              <ul class="dropdown-menu pull-right">
-                <li><a href="#">Version 4</a></li>
-                <li><a href="#">Version 3</a></li>
-                <li><a href="#">Version 2</a></li>
-                <li><a href="#">Version 1</a></li>
-              </ul>
-            </div>
-            <div class="btn-group">
-              <a href="#" class="btn btn-default"><i class="fa fa-save"></i></a>
-            </div>
-            <div class="btn-group">
-              <a href="#" class="btn btn-default btn-dropdown" data-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
-              <ul class="dropdown-menu pull-right">
-                <li><a href="#">Delete</a></li>
-                <li><a href="#">Rename</a></li>
-                <li><a href="#">Duplicate</a></li>
-                <li><a href="#">Validate</a></li>
-              </ul>
-            </div>
+            <button type="button" class="btn btn-default toolbarbtn">
+              <i class="fa fa-angle-left"></i>
+            </button>
+            <button type="button" class="btn btn-default toolbarbtn">
+              <i class="fa fa-angle-right"></i>
+            </button>
           </div>
         </div>
       </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
     </div>
   </div>
   <!-- modals -->
