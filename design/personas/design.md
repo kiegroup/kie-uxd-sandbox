@@ -1,22 +1,22 @@
 # User Personas
 
-## Aimee
+## Aimee - Associate Process Manager
 ![Aimee](img/aimee.jpg)
 
-## Cameron
+## Cameron - Citizen Developer
 ![Cameron](img/cameron.jpg)
 
-## Cami
+## Cami - Case Manager
 ![Cami](img/cami.jpg)
 
-## Deepak
+## Deepak - Remote Java Developer
 ![Deepak](img/deepak.jpg)
 
-## Irene
-![Irene](img/irene.jpg)
+## Irene - IT System Administrator
+![Irene](img/irene.png)
 
-## Katie
+## Katie - Patient Account Representative
 ![Katie](img/katie.jpg)
 
-## Paula
+## Paula - Senior Process Manager
 ![Paula](img/paula.jpg)
