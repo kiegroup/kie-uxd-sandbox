@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Jobs</title>
+  <title>BPM - Process Instances</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -53,29 +53,27 @@
           <ul class="dropdown-menu">
             <li><a href="deployments.html">Deployments</a></li>
             <li><a href="servers.html">Servers</a></li>
-            <li><a href="artifacts.html">Artifacts</a></li>
           </ul>
         </li>
         <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monitor<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="dashboards.html">Dashboards</a></li>
-            <li><a href="jobs.html">Jobs</a></li>
             <li><a href="definitions.html">Process Definitions</a></li>
             <li><a href="instances.html">Process Instances</a></li>
             <li><a href="tasks.html">Tasks</a></li>
           </ul>
         </li>
+        <li><a href="dashboards.html">Report</a></li>
       </ul>
     </div>
   </nav>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-3">
-        <h1>Jobs</h1>
+        <h1>Process Instances</h1>
       </div>
       <div class="col-xs-9">
-        <div class="landingbutton"><a href="#" class="btn btn-primary">New Job</a></div>
+        <div class="landingbutton"><a href="#" class="btn btn-primary">New Instance</a></div>
       </div>
     </div>
     <div class="row">
@@ -112,9 +110,11 @@
               <ul class="dropdown-menu table-view-pf-colvis-menu pull-right">
                 <li><input type="checkbox" checked=""><label>ID</label></li>
                 <li><input type="checkbox" checked=""><label>Name</label></li>
-                <li><input type="checkbox" checked=""><label>Type</label></li>
-                <li><input type="checkbox" checked=""><label>Due Date</label></li>
-                <li><input type="checkbox" checked=""><label>Status</label></li>
+                <li><input type="checkbox"><label>Description</label></li>
+                <li><input type="checkbox"><label>Initiator</label></li>
+                <li><input type="checkbox" checked=""><label>Version</label></li>
+                <li><input type="checkbox"><label>Start Date</label></li>
+                <li><input type="checkbox"><label>Status</label></li>
                 <li><input type="checkbox" checked=""><label>Actions</label></li>
               </ul>
             </div>
@@ -132,6 +132,15 @@
                 <li><a href="#">Refresh</a></li>
               </ul>
             </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default toolbarbtn dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-ellipsis-h"></i>
+              </button>
+              <ul class="dropdown-menu pull-right">
+                <li><a href="#">Abort</a></li>
+                <li><a href="#">Signal</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -142,182 +151,171 @@
           <table class="table table-hover table-bordered dataTable">
             <thead>
               <tr>
+                <th style="width: 30px;"><input type="checkbox"></th>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Type</th>
-                <th>Due Date</th>
-                <th>Status</th>
+                <th>Version</th>
                 <th colspan="2">Actions</th>
               </tr>
             </thead>
             <tbody>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>
               <tr>
+                <td><input type="checkbox"></td>
                 <td>ID</td>
                 <td>Name</td>
-                <td>Type</td>
-                <td>Due Date</td>
-                <td>Status</td>
+                <td>Version</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Abort</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
+                    <button class="btn btn-default" type="button">Signal</button>
                   </div>
                 </td>
               </tr>

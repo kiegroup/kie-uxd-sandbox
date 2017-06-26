@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Artifacts</title>
+  <title>BPM - Tasks</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -48,34 +48,32 @@
       <ul class="nav navbar-nav navbar-primary">
         <li><a href="index.html">Home</a></li>
         <li><a href="design.html">Design</a></li>
-        <li class="dropdown active">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deploy<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="deployments.html">Deployments</a></li>
             <li><a href="servers.html">Servers</a></li>
-            <li><a href="artifacts.html">Artifacts</a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monitor<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="dashboards.html">Dashboards</a></li>
-            <li><a href="jobs.html">Jobs</a></li>
             <li><a href="definitions.html">Process Definitions</a></li>
             <li><a href="instances.html">Process Instances</a></li>
             <li><a href="tasks.html">Tasks</a></li>
           </ul>
         </li>
+        <li><a href="dashboards.html">Report</a></li>
       </ul>
     </div>
   </nav>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-3">
-        <h1>Artifacts</h1>
+        <h1>Tasks</h1>
       </div>
       <div class="col-xs-9">
-        <div class="landingbutton"><a href="#" class="btn btn-primary">Upload</a></div>
+        <div class="landingbutton"><a href="#" class="btn btn-primary">New Task</a></div>
       </div>
     </div>
     <div class="row">
@@ -110,9 +108,14 @@
                 <i class="fa fa-columns"></i>
               </button>
               <ul class="dropdown-menu table-view-pf-colvis-menu pull-right">
-                <li><input type="checkbox" checked=""><label>Name</label></li>
-                <li><input type="checkbox" checked=""><label>GAV</label></li>
-                <li><input type="checkbox"><label>Last Modified</label></li>
+                <li><input type="checkbox" checked=""><label>ID</label></li>
+                <li><input type="checkbox"><label>Description</label></li>
+                <li><input type="checkbox"><label>Process Name</label></li>
+                <li><input type="checkbox"><label>Process ID</label></li>
+                <li><input type="checkbox" checked=""><label>Date Created</label></li>
+                <li><input type="checkbox" checked=""><label>Due Date</label></li>
+                <li><input type="checkbox" checked=""><label>Priority</label></li>
+                <li><input type="checkbox" checked=""><label>Status</label></li>
                 <li><input type="checkbox" checked=""><label>Actions</label></li>
               </ul>
             </div>
@@ -140,149 +143,182 @@
           <table class="table table-hover table-bordered dataTable">
             <thead>
               <tr>
-                <th>Name</th>
-                <th>GAV</th>
+                <th>ID</th>
+                <th>Date Created</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Status</th>
                 <th colspan="2">Actions</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
               </tr>
               <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
               </tr>
               <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
               </tr>
               <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
               </tr>
               <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
               </tr>
               <tr>
-                <td>guvnor-asset-mgmt-project-6.5.1.20170614-044106.jar</td>
-                <td>org.guvnor:guvnor-asset-mgmt-project:6.5.1.20170614-044106</td>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Open</button>
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
                 <td class="table-view-pf-actions">
                   <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Download</button>
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>ID</td>
+                <td>Date Created</td>
+                <td>Due Date</td>
+                <td>Priority</td>
+                <td>Status</td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
+                  </div>
+                </td>
+                <td class="table-view-pf-actions">
+                  <div class="table-view-pf-btn">
+                    <button class="btn btn-default" type="button">Action</button>
                   </div>
                 </td>
               </tr>

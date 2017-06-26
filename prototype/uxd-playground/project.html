@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Process Definitions</title>
+  <title>BPM - Project</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -47,35 +47,47 @@
       </ul>
       <ul class="nav navbar-nav navbar-primary">
         <li><a href="index.html">Home</a></li>
-        <li><a href="design.html">Design</a></li>
+        <li class="active"><a href="design.html">Design</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deploy<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="deployments.html">Deployments</a></li>
             <li><a href="servers.html">Servers</a></li>
-            <li><a href="artifacts.html">Artifacts</a></li>
           </ul>
         </li>
-        <li class="dropdown active">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monitor<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="dashboards.html">Dashboards</a></li>
-            <li><a href="jobs.html">Jobs</a></li>
             <li><a href="definitions.html">Process Definitions</a></li>
             <li><a href="instances.html">Process Instances</a></li>
             <li><a href="tasks.html">Tasks</a></li>
           </ul>
         </li>
+        <li><a href="dashboards.html">Report</a></li>
       </ul>
     </div>
   </nav>
+  <div class="secondbar">
+    <ol class="breadcrumb">
+      <li><a href="design.html">Teams</a></li>
+      <li><a href="team.html">My Team</a></li>
+      <li class="active">Project Name</li>
+    </ol>
+  </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-3">
-        <h1>Process Definitions</h1>
+      <div class="col-xs-6">
+        <h1>Project Name</h1>
+          <p>This workbench example assigns processes to computers.</p>
       </div>
-      <div class="col-xs-9">
-        <div class="landingbutton"><a href="#" class="btn btn-primary">New Definition</a></div>
+      <div class="col-xs-6">
+        <div class="landingbutton">
+          <div class="btn-group">
+            <a href="#" class="btn btn-default"><i class="fa fa-gears"></i></a>
+            <a href="#" class="btn btn-default">Compile</a>
+            <a href="#" class="btn btn-default">Deploy</a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -95,7 +107,7 @@
       </div>
       <div class="col-md-8 col-xs-12">
         <div class="pull-right">
-          <span style="margin-right: 10px;">1 - 10 of 24</span>
+          <span style="margin-right: 10px;">1 - 3 of 22</span>
           <div class="btn-group">
             <button type="button" class="btn btn-default toolbarbtn">
               <i class="fa fa-angle-left"></i>
@@ -105,31 +117,7 @@
             </button>
           </div>
           <div class="btn-group" style="margin-left: 10px;">
-            <div class="btn-group">
-              <button type="button" class="btn btn-default toolbarbtn dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-columns"></i>
-              </button>
-              <ul class="dropdown-menu table-view-pf-colvis-menu pull-right">
-                <li><input type="checkbox" checked=""><label>Name</label></li>
-                <li><input type="checkbox" checked=""><label>Version</label></li>
-                <li><input type="checkbox" checked=""><label>Project</label></li>
-                <li><input type="checkbox" checked=""><label>Actions</label></li>
-              </ul>
-            </div>
-            <div class="btn-group">
-              <button type="button" class="btn btn-default toolbarbtn dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-refresh"></i>
-              </button>
-              <ul class="dropdown-menu pull-right">
-                <li class="dropdown-header">Auto Refresh</li>
-                <li><a href="#">1 Minute</a></li>
-                <li><a href="#"><span class="pull-right"><i class="fa fa-check"></i></span>5 Minutes</a></li>
-                <li><a href="#">10 Minutes</a></li>
-                <li><a href="#">Never</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Refresh</a></li>
-              </ul>
-            </div>
+            <a href="#" class="btn btn-primary">New Asset</a>
           </div>
         </div>
       </div>
@@ -137,165 +125,33 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="table-responsive">
-          <table class="table table-hover table-bordered dataTable">
+          <table class="table table-hover table-bordered">
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Version</th>
-                <th>Project</th>
-                <th colspan="2">Actions</th>
+                <th>Dedfgment</th>
+                <th>GrosdfD</th>
+                <th>BasdfName</th>
+                <th>Runtdfgtegy</th>
+                <th>Stdfgus</th>
+                <th>Adfgons</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
+                <td><a href="asset.html">asset</a></td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>fghfhg</td>
               </tr>
               <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Name</td>
-                <td>Version</td>
-                <td>Project</td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
-                <td class="table-view-pf-actions">
-                  <div class="table-view-pf-btn">
-                    <button class="btn btn-default" type="button">Action</button>
-                  </div>
-                </td>
+                <td>fgh</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>fghfhg</td>
               </tr>
             </tbody>
           </table>

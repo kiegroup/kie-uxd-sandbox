@@ -11,7 +11,6 @@
 
   1. **Description Label Three:** This is what the callout is pointing to and why it matters
 
-
 ## Pattern Variation 2
 
 ![Title of image 2](img/image-name-goes-here-2.jpg)
