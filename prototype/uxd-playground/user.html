@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Team</title>
+  <title>BPM - User</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -47,7 +47,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-primary">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="design.html">Design</a></li>
+        <li><a href="design.html">Design</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deploy<b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -69,82 +69,88 @@
   </nav>
   <div class="secondbar">
     <ol class="breadcrumb">
-      <li><a href="design.html">Design</a></li>
-      <li class="active">Team Name</li>
+      <li><a href="settings.html">Settings</a></li>
+      <li><a href="settings_users.html">Users</a></li>
+      <li class="active">User Name</li>
     </ol>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-3">
-        <h1>[Team Name]</h1>
+        <h1>[User Name]</h1>
       </div>
       <div class="col-xs-9">
         <div class="landingbutton">
           <div class="btn-group">
-            <a href="#editteam" class="btn btn-default" data-toggle="modal"><i class="fa fa-pencil"></i></a>
-            <a href="#deleteteam" class="btn btn-default" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+            <a href="#edituser" class="btn btn-default" data-toggle="modal"><i class="fa fa-pencil"></i></a>
+            <a href="#deleteuser" class="btn btn-default" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
           </div>
         </div>
       </div>
     </div>
     <div class="row" style="margin-top: 10px;">
-      <div class="col-md-4 col-xs-12">
-        <form class="search-pf has-button">
-          <div class="form-group has-clear">
-            <div class="search-pf-input-group">
-              <label for="search1" class="sr-only">Search Projects</label>
-              <input id="search1" type="search" class="form-control" placeholder="Search Projects">
-              <button type="button" class="clear" aria-hidden="true" style="display: none;"><span class="pficon pficon-close"></span></button>
-            </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Groups</h3>
           </div>
-          <div class="form-group">
-            <button class="btn btn-default" type="submit"><span class="fa fa-search"></span></button>
-          </div>
-        </form>
-      </div>
-      <div class="col-md-8 col-xs-12">
-        <div class="pull-right">
-          <span style="margin-right: 10px;">1 - 3 of 22</span>
-          <div class="btn-group">
-            <button type="button" class="btn btn-default toolbarbtn">
-              <i class="fa fa-angle-left"></i>
-            </button>
-            <button type="button" class="btn btn-default toolbarbtn">
-              <i class="fa fa-angle-right"></i>
-            </button>
-          </div>
-          <div class="btn-group" style="margin-left: 10px;">
-            <a href="#" class="btn btn-primary">New Project</a>
+          <div class="panel-body" style="padding: 0;">
+            <ul class="list-group" style="margin-bottom: 0; border-top: 0;">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item" style="border-bottom: 0;">Vestibulum at eros</li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row" style="margin-top: 10px;">
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
-    </div>
-    <div class="row">
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
-    </div>
-    <div class="row">
-      <div class="col-md-4"><a class="card" href="project.html"><h4>Project Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Roles</h3>
+          </div>
+          <div class="panel-body" style="padding: 0;">
+            <ul class="list-group" style="margin-bottom: 0; border-top: 0;">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item" style="border-bottom: 0;">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Permissions</h3>
+          </div>
+          <div class="panel-body" style="padding: 0;">
+            <ul class="list-group" style="margin-bottom: 0; border-top: 0;">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item" style="border-bottom: 0;">Vestibulum at eros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- modals -->
-  <div class="modal fade" id="editteam">
+  <div class="modal fade" id="edituser">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
             <span class="pficon pficon-close"></span>
           </button>
-          <h4 class="modal-title">Edit [Team Name]</h4>
+          <h4 class="modal-title">Edit [User Name]</h4>
         </div>
         <div class="modal-body">
-          NAME AND PEEPS
+          NAME AND PASSWORD
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
@@ -153,19 +159,19 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="deleteteam">
+  <div class="modal fade" id="deleteuser">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
             <span class="pficon pficon-close"></span>
           </button>
-          <h4 class="modal-title">Delete [Team Name]</h4>
+          <h4 class="modal-title">Delete [User Name]</h4>
         </div>
         <div class="modal-body">
           <div class="alert alert-danger" style="margin-bottom: 0;">
             <span class="pficon pficon-error-circle-o"></span>
-            Are you sure you want to delete [Team Name]? You will lose <strong>7 projects</strong>.
+            Are you sure you want to delete [User Name]?
           </div>
         </div>
         <div class="modal-footer">
