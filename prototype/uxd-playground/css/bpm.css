@@ -21,7 +21,7 @@ table {
 }
 
 .breadcrumb {
-  padding: 6px 15px;
+  padding: 6px 20px;
   margin-bottom: 0;
 }
 
@@ -37,7 +37,20 @@ table {
 }
 
 .table-view-pf-actions:last-child {
-    width: auto;
+  width: auto;
+}
+
+.list-pf-item {
+  border-left: 0;
+  border-right: 0;
+}
+
+.panel-title {
+  font-size: 12px;
+}
+
+.list-group-item {
+  border-color: #ddd;
 }
 
 /* custom */
