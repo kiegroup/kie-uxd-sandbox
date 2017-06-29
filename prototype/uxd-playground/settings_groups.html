@@ -79,11 +79,81 @@
         <h1>Groups</h1>
       </div>
       <div class="col-xs-9">
-        <div class="landingbutton"><a href="#" class="btn btn-primary">New Group</a></div>
+        <div class="landingbutton"><a href="#newgroup" class="btn btn-primary" data-toggle="modal">New Group</a></div>
       </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+      <div class="col-md-4 col-xs-12">
+        <form class="search-pf has-button">
+          <div class="form-group has-clear">
+            <div class="search-pf-input-group">
+              <label for="search1" class="sr-only">Search</label>
+              <input id="search1" type="search" class="form-control" placeholder="Search">
+              <button type="button" class="clear" aria-hidden="true" style="display: none;"><span class="pficon pficon-close"></span></button>
+            </div>
+          </div>
+          <div class="form-group">
+            <button class="btn btn-default" type="submit"><span class="fa fa-search"></span></button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8 col-xs-12">
+        <div class="pull-right">
+          <span style="margin-right: 10px;">1 - 10 of 24</span>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default toolbarbtn">
+              <i class="fa fa-angle-left"></i>
+            </button>
+            <button type="button" class="btn btn-default toolbarbtn">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+      <div class="col-md-4"><a class="card" href="group.html"><h4>Group Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="group.html"><h4>Group Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="group.html"><h4>Group Name</h4><p>Brief description.</p></a></div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><a class="card" href="group.html"><h4>Group Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-4"><a class="card" href="group.html"><h4>Group Name</h4><p>Brief description.</p></a></div>
     </div>
   </div>
   <!-- modals -->
+  <div class="modal fade" id="newgroup">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <span class="pficon pficon-close"></span>
+          </button>
+          <h4 class="modal-title">New Group</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label>Name</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Retype Password</label>
+              <input type="password" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <a href="user.html" class="btn btn-primary">OK</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="modal fade" id="help">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -104,25 +174,28 @@
   </div>
   <div class="modal fade" id="about">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content about-modal-pf">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
             <span class="pficon pficon-close"></span>
           </button>
-          <h4 class="modal-title">About</h4>
         </div>
         <div class="modal-body">
-          <div class="form-group">
-            <label class="control-label">Version</label>
-            <p>6.5.1.20170515-044102</p>
+          <h1>Product Title</h1>
+          <div class="product-versions-pf">
+            <ul class="list-unstyled">
+              <li><strong>Version</strong> 6.5.1.20170515-044102</li>
+              <li><strong>Role</strong> [Role Name]</li>
+              <li><strong>Role</strong> [Role Name]</li>
+              <li><strong>Role</strong> [Role Name]</li>
+            </ul>
           </div>
-          <div class="form-group">
-            <label class="control-label">Roles</label>
-            <p>Role, Role, Role</p>
+          <div class="trademark-pf">
+            Trademark and Copyright Information
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+          <img src="img/logo-alt.svg" alt="Patternfly Symbol">
         </div>
       </div>
     </div>

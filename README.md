@@ -1,7 +1,7 @@
 # KIE UX Sandbox
 This is the Red Hat UXD team's project for JBoss BPM/BRMS design documents and user interface prototypes.
 
-Designs and prototypes are available at [https://srambach.github.io/kie-uxd-sandbox/](https://srambach.github.io/kie-uxd-sandbox/)
+Designs and prototypes are available at [https://kiegroup.github.io/kie-uxd-sandbox/](https://kiegroup.github.io/kie-uxd-sandbox/)
 
 ## File Structure
 Designs are located in subfolders under /design. Supporting graphics are located in /images folders within those folders.

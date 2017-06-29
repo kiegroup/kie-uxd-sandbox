@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Roles</title>
+  <title>BPM - Role</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -70,90 +70,129 @@
   <div class="secondbar">
     <ol class="breadcrumb">
       <li><a href="settings.html">Settings</a></li>
-      <li class="active">Roles</li>
+      <li><a href="settings_groups.html">Groups</a></li>
+      <li class="active">Group Name</li>
     </ol>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-3">
-        <h1>Roles</h1>
+        <h1>[Group Name]</h1>
       </div>
       <div class="col-xs-9">
-        <div class="landingbutton"><a href="#newrole" class="btn btn-primary" data-toggle="modal">New Role</a></div>
-      </div>
-    </div>
-    <div class="row" style="margin-top: 10px;">
-      <div class="col-md-4 col-xs-12">
-        <form class="search-pf has-button">
-          <div class="form-group has-clear">
-            <div class="search-pf-input-group">
-              <label for="search1" class="sr-only">Search</label>
-              <input id="search1" type="search" class="form-control" placeholder="Search">
-              <button type="button" class="clear" aria-hidden="true" style="display: none;"><span class="pficon pficon-close"></span></button>
-            </div>
-          </div>
-          <div class="form-group">
-            <button class="btn btn-default" type="submit"><span class="fa fa-search"></span></button>
-          </div>
-        </form>
-      </div>
-      <div class="col-md-8 col-xs-12">
-        <div class="pull-right">
-          <span style="margin-right: 10px;">1 - 10 of 24</span>
+        <div class="landingbutton">
           <div class="btn-group">
-            <button type="button" class="btn btn-default toolbarbtn">
-              <i class="fa fa-angle-left"></i>
-            </button>
-            <button type="button" class="btn btn-default toolbarbtn">
-              <i class="fa fa-angle-right"></i>
-            </button>
+            <a href="#editgroup" class="btn btn-default" data-toggle="modal"><i class="fa fa-pencil"></i></a>
+            <a href="#deletegroup" class="btn btn-default" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+            <a href="#" class="btn btn-default"><i class="fa fa-save"></i></a>
           </div>
         </div>
       </div>
     </div>
     <div class="row" style="margin-top: 10px;">
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Groups</h3>
+          </div>
+          <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0; border-top: 0;">
+              <a href="#" class="list-group-item active">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item active">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Roles</h3>
+          </div>
+          <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0; border-top: 0;">
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item active">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item active">Cras justo odio</a>
+              <a href="#" class="list-group-item active">Cras justo odio</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
-    </div>
-    <div class="row">
-      <div class="col-md-4"><a class="card" href="role.html"><h4>Role Name</h4><p>Brief description.</p></a></div>
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Permissions: Workbench</h3>
+          </div>
+          <div class="panel-body" style="padding: 0;">
+            <div class="list-group" style="margin-bottom: 0; border-top: 0;">
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+              <a href="#" class="list-group-item">Cras justo odio</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- modals -->
-  <div class="modal fade" id="newrole">
+  <div class="modal fade" id="editgroup">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
             <span class="pficon pficon-close"></span>
           </button>
-          <h4 class="modal-title">New Role</h4>
+          <h4 class="modal-title">Edit [Group Name]</h4>
         </div>
         <div class="modal-body">
           <form>
             <div class="form-group">
               <label>Name</label>
-              <input type="email" class="form-control">
+              <input type="email" class="form-control" value="[Group Name]">
             </div>
             <div class="form-group">
-              <label>Password</label>
+              <label>New Password</label>
               <input type="password" class="form-control">
             </div>
             <div class="form-group">
-              <label>Retype Password</label>
+              <label>Retype New Password</label>
               <input type="password" class="form-control">
             </div>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-          <a href="user.html" class="btn btn-primary">OK</a>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="deletegroup">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <span class="pficon pficon-close"></span>
+          </button>
+          <h4 class="modal-title">Delete [Group Name]</h4>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-danger" style="margin-bottom: 0;">
+            <span class="pficon pficon-error-circle-o"></span>
+            Are you sure you want to delete [Group Name]?
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Delete</button>
         </div>
       </div>
     </div>
