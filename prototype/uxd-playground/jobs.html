@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BPM - Asset</title>
+  <title>BPM - Jobs</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
   <link href="css/bpm.css" rel="stylesheet" media="screen, print">
@@ -47,7 +47,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-primary">
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="design.html">Design</a></li>
+        <li><a href="design.html">Design</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deploy<b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -55,7 +55,7 @@
             <li><a href="servers.html">Servers</a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration<b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="jobs.html">Jobs</a></li>
@@ -68,47 +68,8 @@
       </ul>
     </div>
   </nav>
-  <div class="secondbar">
-    <ol class="breadcrumb">
-      <li><a href="design.html">Design</a></li>
-      <li><a href="team.html">Team Name</a></li>
-      <li><a href="project.html">Project Name</a></li>
-      <li class="active">Asset Name</li>
-    </ol>
-  </div>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-3">
-        <h1>[Asset Name]</h1>
-      </div>
-      <div class="col-xs-9">
-        <div class="landingbutton">
-          <div class="btn-group">
-            <div class="btn-group">
-              <a href="#" class="btn btn-default btn-dropdown" data-toggle="dropdown">Version 4</a>
-              <ul class="dropdown-menu pull-right">
-                <li><a href="#">Version 4</a></li>
-                <li><a href="#">Version 3</a></li>
-                <li><a href="#">Version 2</a></li>
-                <li><a href="#">Version 1</a></li>
-              </ul>
-            </div>
-            <div class="btn-group">
-              <a href="#" class="btn btn-default"><i class="fa fa-save"></i></a>
-            </div>
-            <div class="btn-group">
-              <a href="#" class="btn btn-default btn-dropdown" data-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
-              <ul class="dropdown-menu pull-right">
-                <li><a href="#">Delete</a></li>
-                <li><a href="#">Rename</a></li>
-                <li><a href="#">Duplicate</a></li>
-                <li><a href="#">Validate</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h1>Jobs</h1>
   </div>
   <!-- modals -->
   <div class="modal fade" id="help">
@@ -180,7 +141,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label class="control-label">View Mode</label>
+          <label class="control-label">View Mode</label>
             <div class="radio">
               <label><input type="radio" name="optradio">Basic</label>
             </div>
