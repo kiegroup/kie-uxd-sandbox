@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BPM</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly-additions.min.css" rel="stylesheet" media="screen, print">
+  <link href="css/bpm.css" rel="stylesheet" media="screen, print">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.14.0/js/patternfly.min.js"></script>
+  <style> body { margin-bottom: 300px; } h1 { margin-top: 50px; } </style>
+</head>
+<body>
+  <!-- current -->
+  <h1>Current</h1>
+  <nav class="navbar navbar-default navbar-pf">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/BPMSuite.svg" alt="BPM Suite" style="height: 11px;"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-utility">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-left: 10px;"><i class="fa fa-question"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Help</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fa fa-cog"></i></a></li>
+        <li><a href="#"><i class="fa fa-info-circle"></i></a></li>
+        <li><a href="#" onclick="myFunction()"><i class="fa fa-medkit"></i></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="pficon pficon-user"></span>Brian Johnson <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Switch to Compact View</a></li>
+            <li><a href="#">Role: analyst</a></li>
+            <li><a href="#">Role: kiemgmt</a></li>
+            <li><a href="#">Role: admin</a></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-primary">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home Page</a></li>
+            <li><a href="#">Timeline</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">User Management</a></li>
+            <li><a href="#">Group Management</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Authoring <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Project Authoring</a></li>
+            <li><a href="#">Contributors</a></li>
+            <li><a href="#">Artifact repository</a></li>
+            <li><a href="#">Administration</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deploy <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Process Deployments</a></li>
+            <li><a href="#">Execution Servers</a></li>
+            <li><a href="#">Jobs</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Process Management <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Process Definitions</a></li>
+            <li><a href="#">Process Instances</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Tasks</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dashboards <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Process &amp; Task Dashboard</a></li>
+            <li><a href="#">Business Dashboards</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Extensions <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">PlugIn Management</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Data Sets</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <h1>Joe's Proposal</h1>
+  <!-- joe -->
+  <nav class="navbar navbar-default navbar-pf">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/BPMSuite.svg" alt="BPM Suite" style="height: 11px;"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nav-item-iconic" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Home <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><a href="#JHome" data-toggle="tab">Home</a></li>
+            <li><a href="#JDesign" data-toggle="tab">Design</a></li>
+            <li><a href="#JProcesses" data-toggle="tab">Processes &amp; Tasks</a></li>
+            <li><a href="#JRuntime" data-toggle="tab">Runtime</a></li>
+            <li><a href="#JSettings" data-toggle="tab">Settings</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-utility">
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="pficon pficon-user"></span>Brian Johnson <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Another link</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="tab-content">
+    <div class="tab-pane" id="JHome"></div>
+    <div class="tab-pane" id="JDesign"></div>
+    <div class="tab-pane" id="JProcesses">
+      <nav class="navbar navbar-default navbar-pf" style="border-top: 0;">
+        <ul class="nav navbar-nav navbar-primary">
+          <li><a href="#JProcesses" data-toggle="tab">Processes</a></li>
+          <li><a href="#JTasks" data-toggle="tab">Tasks</a></li>
+          <li><a href="#JMetrics" data-toggle="tab">Metrics</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="tab-pane" id="JRuntime">
+      <nav class="navbar navbar-default navbar-pf" style="border-top: 0;">
+        <ul class="nav navbar-nav navbar-primary">
+          <li><a href="#JOverview" data-toggle="tab">Overview</a></li>
+          <li><a href="#JDeployments" data-toggle="tab">Deployments</a></li>
+          <li><a href="#JServers" data-toggle="tab">Servers</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="tab-pane" id="JSettings"></div>
+  </div>
+  <h1>Flat List, nouns</h1>
+  <!-- option 1 -->
+  <nav class="navbar navbar-default navbar-pf">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-3">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="img/BPMSuite.svg" alt="BPM Suite" style="height: 11px;"/>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-collapse-3">
+      <ul class="nav navbar-nav navbar-utility">
+        <li><a href="#"><i class="fa fa-question"></i></a></li>
+        <li><a href="#"><i class="fa fa-cog"></i></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="pficon pficon-user"></span>Brian Johnson <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Switch to Compact View</a></li>
+            <li><a href="#">Reset Perspective Layouts</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Version</li>
+            <li style="padding: 1px 10px;">6.5.1.20170515-044102</li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Roles</li>
+            <li style="padding: 1px 10px;">Admin</li>
+            <li style="padding: 1px 10px;">Analyst</li>
+            <li class="divider"></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-primary">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Deployments</a></li>
+        <li><a href="#">Servers</a></li>
+        <li><a href="#">Processes</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Dashboards</a></li>
+      </ul>
+    </div>
+  </nav>
+  <h1>Grouped, verbs</h1>
+  <nav class="navbar navbar-default navbar-pf">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-5">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="inddfgtml"><img src="img/BPMSuite.svg" alt="BPM Suite" style="height: 11px;"/></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-collapse-5">
+      <ul class="nav navbar-nav navbar-utility">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nav-item-iconic" id="applications" data-toggle="dropdown">
+            <span title="Applications" class="fa fa-th"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Application 1</a></li>
+            <li><a href="#">Application 2</a></li>
+            <li><a href="#">Application 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fa fa-question"></i></a></li>
+        <li><a href="#"><i class="fa fa-cog"></i></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Brian Johnson <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Preferences</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-primary">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Design</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Deploy<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Deployments</a></li>
+            <li><a href="#">Servers</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Process Definitions</a></li>
+            <li><a href="#">Process Instances</a></li>
+            <li><a href="#">Tasks</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Report</a></li>
+      </ul>
+    </div>
+  </nav>
+  <h1>Mega-menu</h1>
+  <img src="img/mega5.png" alt="" />
+  <h1>Masthead Commbinations (3)</h1>
+  <img src="img/mast1.png" alt="" style="width: 780px; margin-bottom: 20px;" />
+  <img src="img/mast2.png" alt="" style="width: 780px; margin-bottom: 20px;" />
+  <img src="img/mast3.png" alt="" style="width: 780px; margin-bottom: 20px;" />
+  </div>
+  <script>
+  $(".dropdown-menu li a").click(function(){
+    $(this).parents(".dropdown").find('.nav-item-iconic').html($(this).text() + ' <span class="caret"></span>');
+    $(this).parents(".dropdown").find('.nav-item-iconic').val($(this).data('value'));
+  });
+  </script>
+  <script> function myFunction() { alert("Are you sure you want to reset all Perspective layouts?"); } </script>
+</body>
+</html>

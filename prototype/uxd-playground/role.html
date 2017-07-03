@@ -10,6 +10,7 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.14.0/js/patternfly.min.js"></script>
+  <style>.checkbox { margin-top: 0; margin-bottom: 0; } th.crud { width: 125px; }</style>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-pf">
@@ -56,8 +57,9 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Monitor<b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage<b class="caret"></b></a>
           <ul class="dropdown-menu">
+            <li><a href="jobs.html">Jobs</a></li>
             <li><a href="definitions.html">Process Definitions</a></li>
             <li><a href="instances.html">Process Instances</a></li>
             <li><a href="tasks.html">Tasks</a></li>
@@ -82,7 +84,7 @@
       <div class="col-xs-9">
         <div class="landingbutton">
           <div class="btn-group">
-            <a href="#editrole" class="btn btn-default" data-toggle="modal"><i class="fa fa-pencil"></i></a>
+            <a href="#editrole" class="btn btn-default" data-toggle="modal"><i class="fa fa-gears"></i></a>
             <a href="#deleterole" class="btn btn-default" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
             <a href="#" class="btn btn-default"><i class="fa fa-save"></i></a>
           </div>
@@ -90,19 +92,172 @@
       </div>
     </div>
     <div class="row" style="margin-top: 10px;">
-      <div class="col-md-3">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Permisssdfsdfnch</h3>
-          </div>
-          <div class="panel-body" style="padding: 0;">
-            <div class="list-group" style="margin-bottom: 0; border-top: 0;">
-              <a href="#" class="list-group-item">Read</a>
-              <a href="#" class="list-group-item">Update</a>
-              <a href="#" class="list-group-item">Delete</a>
-              <a href="#" class="list-group-item">Create</a>
-            </div>
-          </div>
+      <div class="col-md-12">
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Workspaces</th>
+                <th class="crud">Permission</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Configure Repositories</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td>Edit Source Code</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td>[Verb] Resource Planner</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td>Download JAR</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Perspectives</th>
+                <th class="crud">Read</th>
+                <th class="crud">Update</th>
+                <th class="crud">Delete</th>
+                <th class="crud">Create</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Default</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td><a href="#"><i class="fa fa-trash-o" style="margin-right: 8px;"></i></a> [Exception Name]</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox"> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td colspan="5"><a href="#"><i class="fa fa-plus" style="margin-right: 8px;"></i> Add Exception</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Teams</th>
+                <th class="crud">Read</th>
+                <th class="crud">Update</th>
+                <th class="crud">Delete</th>
+                <th class="crud">Create</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Default</td>
+                <td><div class="checkbox"><label><input type="checkbox"> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td><a href="#"><i class="fa fa-trash-o" style="margin-right: 8px;"></i></a> [Exception Name]</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td><a href="#"><i class="fa fa-trash-o" style="margin-right: 8px;"></i></a> [Exception Name]</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td><a href="#"><i class="fa fa-trash-o" style="margin-right: 8px;"></i></a> [Exception Name]</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td colspan="5"><a href="#"><i class="fa fa-plus" style="margin-right: 8px;"></i> Add Exception</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Repositories</th>
+                <th class="crud">Read</th>
+                <th class="crud">Update</th>
+                <th class="crud">Delete</th>
+                <th class="crud">Create</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Default</td>
+                <td><div class="checkbox"><label><input type="checkbox"> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox"> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td colspan="5"><a href="#"><i class="fa fa-plus" style="margin-right: 8px;"></i> Add Exception</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Projects</th>
+                <th class="crud">Build</th>
+                <th class="crud">Read</th>
+                <th class="crud">Update</th>
+                <th class="crud">Delete</th>
+                <th class="crud">Create</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Default</td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td><a href="#"><i class="fa fa-trash-o" style="margin-right: 8px;"></i></a> [Exception Name]</td>
+                <td><div class="checkbox"><label><input type="checkbox"> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox" checked> Allow</label></div></td>
+                <td><div class="checkbox"><label><input type="checkbox"> Allow</label></div></td>
+              </tr>
+              <tr>
+                <td colspan="6"><a href="#"><i class="fa fa-plus" style="margin-right: 8px;"></i> Add Exception</a></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -124,12 +279,28 @@
               <input type="email" class="form-control" value="[Role Name]">
             </div>
             <div class="form-group">
-              <label>New Password</label>
-              <input type="password" class="form-control">
+              <label>Home Perspective</label>
+              <select class="form-control">
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+                <option>[Option Name]</option>
+              </select>
             </div>
             <div class="form-group">
-              <label>Retype New Password</label>
-              <input type="password" class="form-control">
+              <label>Priority</label>
+              <select class="form-control">
+                <option>Very High</option>
+                <option>High</option>
+                <option>Normal</option>
+                <option>Low</option>
+                <option>Very Low</option>
+              </select>
             </div>
           </form>
         </div>
