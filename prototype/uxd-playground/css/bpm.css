@@ -53,6 +53,10 @@ table {
   border-color: #ddd;
 }
 
+.navbar-pf {
+  border-top: 3px solid #cc0000;
+}
+
 /* custom */
 
 .secondbar {

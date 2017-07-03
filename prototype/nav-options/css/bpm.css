@@ -1,0 +1,45 @@
+.control-label {
+  text-align: right;
+  width: 100%;
+}
+
+.pficon-user {
+  margin-top: 3px;
+}
+
+.navbar-pf .navbar-header {
+  border-bottom: 0;
+  float: none;
+}
+
+.navbar-pf .navbar-primary {
+  border-top: 1px solid #292929;
+}
+
+@media (min-width: 768px) {
+  .navbar-pf .navbar-header {
+    float: left;
+  }
+  .navbar-pf .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-pf .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.navbar-pf .navbar-primary {
+  float: left;
+  width: 100%;
+}
+.navbar-pf .navbar-nav>.active>a,
+.navbar-pf .navbar-nav>.active>a:focus,
+.navbar-pf .navbar-nav>.active>a:hover,
+.navbar-pf .navbar-nav>.open>a,
+.navbar-pf .navbar-nav>.open>a:focus,
+.navbar-pf .navbar-nav>.open>a:hover {
+  background-color: inherit;
+}
