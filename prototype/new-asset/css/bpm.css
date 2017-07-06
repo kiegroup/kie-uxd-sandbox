@@ -1,0 +1,137 @@
+/* overrides */
+
+body {
+  background: #f5f5f5;
+}
+
+table {
+  background: #fff;
+}
+
+li label {
+  font-weight: normal;
+}
+
+table {
+  margin-top: 10px;
+}
+
+.radio {
+  margin-top: 0;
+}
+
+.breadcrumb {
+  padding: 6px 20px;
+  margin-bottom: 0;
+}
+
+.table-view-pf-colvis-menu>li {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  padding: 1px 10px
+}
+
+.table-view-pf-colvis-menu>li:hover {
+  border-bottom: 1px solid #bee1f4;
+  border-top: 1px solid #bee1f4;
+}
+
+.table-view-pf-actions:last-child {
+  width: auto;
+}
+
+.list-pf-item {
+  border-left: 0;
+  border-right: 0;
+}
+
+.panel-title {
+  font-size: 12px;
+}
+
+.list-group-item {
+  border-color: #ddd;
+}
+
+.navbar-pf {
+  border-top: 3px solid #cc0000;
+}
+
+/* custom */
+
+.secondbar {
+  background: #fff;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.toolbarbtn {
+  padding: 2px 10px;
+}
+
+.landingbutton {
+  margin-top: 20px;
+  text-align: right;
+}
+
+a.card:link, a.card:visited {
+  background: #fff;
+  box-shadow: 0 6px 50px rgba(0,0,0,.06);
+  border-radius: 0;
+  color: #222;
+  display: block;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+  text-decoration: none;
+  transition-property: transform;
+  transition-duration: .1s;
+  transition-timing-function: ease-out;
+}
+
+a.card:hover, a.work:active {
+  text-decoration: none;
+  transform: translate(0, -3px);
+}
+
+/* navbar */
+
+.navbar-pf .navbar-header {
+  border-bottom: 0;
+  float: none;
+}
+
+.navbar-pf .navbar-primary {
+  border-top: 1px solid #292929;
+  float: left;
+  width: 100%;
+}
+
+.navbar-pf .navbar-toggle {
+  border: 0;
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.navbar-pf a.navbar-brand:hover,
+.navbar-pf a.navbar-brand:active {
+  color: #d1d1d1;
+}
+
+.navbar-pf .navbar-primary.persistent-secondary>li>.navbar-persistent {
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-pf .navbar-utility>li>a {
+    padding: 12px;
+  }
+  .navbar-pf .navbar-utility li.dropdown>.dropdown-toggle {
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-pf .navbar-utility li.dropdown>.dropdown-toggle {
+    padding-left: 20px;
+  }
+}
