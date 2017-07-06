@@ -14,15 +14,9 @@ img {
   }
 }
 
-#main_content_wrap {
-  background: #fafafa;
-}
 #header_wrap {
-  background-color: #030303;
+  background-color: #6600bb;
   background-image: none;
-}
-#footer_wrap {
-  background-color: #292e34;
 }
 
 #header_wrap .inner {
@@ -33,6 +27,14 @@ img {
 #project_title a {
   color: #fff;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 300;
+}
+
+#main_content_wrap {
+  background: #ccff55;
+}
+
+#footer_wrap {
+  background-color: #44bb66;
 }
