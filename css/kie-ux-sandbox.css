@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 50px;
+}
+.navbar {
+  border-radius: 0;
+  border: 0;
+}
+.navbar-inverse {
+  background: #030303;
+}
+
+h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+section {
+  margin-top: 12px;
+}
