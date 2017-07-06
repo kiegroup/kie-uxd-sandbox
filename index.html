@@ -4,61 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KIE UXD Sandbox</title>
-
-  <!-- Bootstrap base + PatternFly extensions + project styles -->
-  <link href="css/sandbox-main.css" rel="stylesheet" media="screen, print">
-
-  <!-- JS -->
-  <script src="node_modules/patternfly/node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/patternfly/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="node_modules/patternfly/dist/js/patternfly.min.js"></script>
-
-  <!-- C3, D3 - Charting Libraries -->
-  <script src="node_modules/patternfly/node_modules/d3/d3.min.js"></script>
-  <script src="node_modules/patternfly/node_modules/c3/c3.min.js"></script>
-
-  <script src="node_modules/patternfly/node_modules/jquery-match-height/dist/jquery.matchHeight-min.js"></script>
-
-  <script>
-  $(function() {
-    // matchHeight the contents of each .card-pf and then the .card-pf itself
-    $(".row-cards-pf > [class*='col'] > .card-pf .card-pf-title").matchHeight();
-    $(".row-cards-pf > [class*='col'] > .card-pf > .card-pf-body").matchHeight();
-    $(".row-cards-pf > [class*='col'] > .card-pf > .card-pf-footer").matchHeight();
-    $(".row-cards-pf > [class*='col'] > .card-pf").matchHeight();
-    // initialize tooltips
-    $('[data-toggle="tooltip"]').tooltip();
-  });
-  </script>
-
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
 </head>
-
 <body>
   <div class="container">
-
-  <h2>KIE UXD Sandbox</h2>
-  <div class="row">
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/prototype/nav-options">Navigation Options</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/prototype/uxd-playground">UXD Playground (prototype)</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/personas/design">User Personas</a>
-    </section>
-    <!--
-    <section>
+    <h2>KIE UXD Sandbox</h2>
+    <div class="row">
+      <section>
+        <a href="https://kiegroup.github.io/kie-uxd-sandbox/prototype/nav-options">Navigation Options</a>
+      </section>
+      <section>
+        <a href="https://kiegroup.github.io/kie-uxd-sandbox/prototype/uxd-playground">UXD Playground (prototype)</a>
+      </section>
+      <section>
+        <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/personas/design">User Personas</a>
+      </section>
+      <!--
+      <section>
       <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/discovery">Template for a design discovery document</a>
     </section>
     <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/overview">Template for a design overview document</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/design">Template for a detailed design document</a>
-    </section>
-    -->
-  </div>
+    <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/overview">Template for a design overview document</a>
+  </section>
+  <section>
+  <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/design">Template for a detailed design document</a>
+</section>
+-->
+</div>
 </div>
 </body>
 </html>
