@@ -5,22 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="viewport" content="width=device-width,maximum-scale=2">
   <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
-  <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title>{{ site.title | default: site.github.repository_name }}</title>
 </head>
 <body>
   <!-- header -->
-  <div id="header_wrap">
-    <header>
-      <a href="{{ site.github.repository_url }}">View on GitHub</a>
-      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-    </header>
-  </div>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="{{ site.baseurl }}/" class="navbar-brand">{{ site.title }}</a>
+    </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="{{ site.github.repository_url }}">View on GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
   <!-- main -->
-  <div id="main_content_wrap">
-    <section>
+  <div class="container">
+    <div class="row">
       {{ content }}
-    </section>
+    </div>
   </div>
   <!-- footer  -->
   <div id="footer_wrap">
