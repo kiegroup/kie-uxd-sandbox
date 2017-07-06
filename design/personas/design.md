@@ -18,5 +18,8 @@
 ## Katie - Patient Account Representative
 ![Katie](img/katie.jpg)
 
+## Patrick - Process Administrator
+![Patrick](img/patrick.png)
+
 ## Paula - Senior Process Manager
 ![Paula](img/paula.jpg)
