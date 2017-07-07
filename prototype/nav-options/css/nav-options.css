@@ -1,6 +1,7 @@
 /* navbar and body for all pages */
 
 body {
+  margin: 0 30px;
   padding-top: 80px;
 }
 .navbar-fixed-top {
