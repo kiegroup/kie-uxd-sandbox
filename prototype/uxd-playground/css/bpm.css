@@ -57,6 +57,10 @@ table {
   border-top: 3px solid #cc0000;
 }
 
+.card-pf {
+  margin: 0 -0 20px;
+}
+
 /* custom */
 
 .secondbar {
