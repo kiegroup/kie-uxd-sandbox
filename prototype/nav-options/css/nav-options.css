@@ -1,3 +1,5 @@
+/* space for the navbar back to repo */
+
 body {
   padding-top: 80px;
   margin: 0 30px 30px 30px;
@@ -7,6 +9,8 @@ body {
   border: 0;
   font-size: 14px;
 }
+
+/* other */
 
 h1 {
   margin-top: 50px;

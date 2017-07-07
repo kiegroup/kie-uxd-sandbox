@@ -1,3 +1,4 @@
+/* navbar and body for all pages */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -8,6 +9,20 @@ body {
   border-radius: 0;
   border: 0;
 }
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 20px;
+}
+.navbar-nav.navbar-right {
+  float: right;
+}
+/* other */
 h4 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
