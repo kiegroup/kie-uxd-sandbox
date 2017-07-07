@@ -8,15 +8,10 @@ body {
   border-radius: 0;
   border: 0;
 }
-.navbar-inverse {
-  background: #030303;
-}
-
 h4 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
 }
-
 section {
   margin-top: 12px;
 }
