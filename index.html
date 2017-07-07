@@ -4,31 +4,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KIE UXD Sandbox</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.22.1/css/patternfly.min.css" rel="stylesheet" media="screen, print">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.25.1/css/patternfly.min.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/kie-ux-sandbox.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
+  <!-- header -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="/kie-uxd-sandbox/">KIE UXD Sandbox</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://github.com/kiegroup/kie-uxd-sandbox">View on GitHub</a></li>
+    </ul>
+  </nav>
+  <!-- main -->
   <div class="container">
-    <h2>KIE UXD Sandbox</h2>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/prototype/nav-options">Navigation Options</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/prototype/uxd-playground">UXD Playground (prototype)</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/personas/design">User Personas</a>
-    </section>
-    <!--
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/discovery">Template for a design discovery document</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/overview">Template for a design overview document</a>
-    </section>
-    <section>
-      <a href="https://kiegroup.github.io/kie-uxd-sandbox/design/example/design">Template for a detailed design document</a>
-    </section>
-    -->
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Design Explorations</h4>
+        <section>
+          <div><a href="/kie-uxd-sandbox/prototype/new-asset">New Asset Options</a></div>
+          <div class="text-muted">July 6, 2017</div>
+        </section>
+        <section>
+          <div><a href="/kie-uxd-sandbox/prototype/nav-options">Navigation Options</a></div>
+          <div class="text-muted">July 6, 2017</div>
+        </section>
+      </div>
+      <div class="col-md-4">
+        <h4>Style Guide</h4>
+        <section>
+          <div><a href="/kie-uxd-sandbox/design/personas/design">User Personas</a></div>
+          <div class="text-muted">July 6, 2017</div>
+        </section>
+      </div>
+      <div class="col-md-4">
+        <h4>Prototype</h4>
+        <section>
+          <div><a href="/kie-uxd-sandbox/prototype/uxd-playground">UXD Playground</a></div>
+          <div class="text-muted">July 6, 2017</div>
+        </section>
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
