@@ -1,3 +1,12 @@
+body {
+  padding-top: 80px;
+  margin: 30px;
+  }
+
+h1 {
+  margin-top: 50px;
+}
+
 .control-label {
   width: 100%;
 }
