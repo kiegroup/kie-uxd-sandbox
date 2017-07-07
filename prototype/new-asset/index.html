@@ -7,6 +7,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.25.1/css/patternfly.min.css" rel="stylesheet" type="text/css" media="screen">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.25.1/css/patternfly-additions.min.css" rel="stylesheet" type="text/css" media="screen">
   <link href="css/new-asset.css" rel="stylesheet" type="text/css" media="screen">
+  <style> h5 { border-bottom: 1px solid #ddd; padding-bottom: 5px; } </style>
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -23,7 +24,7 @@
     <div class="row">
       <div class="col-md-4">
         <h1>Option 1</h1>
-        <p>This option has the most examples hooked up. It limits the New Asset dropdown to top level categories. Once the user choose a category, (s)he has to choose as asset type as a first step.</p>
+        <p>This option has the most examples hooked up. It limits the New Asset dropdown to top level categories. Once the user choose a category, (s)he has to choose an asset type as a first step.</p>
         <a href="#" class="btn btn-primary btn-dropdown" data-toggle="dropdown">New Asset</a>
         <ul class="dropdown-menu">
           <li><a href="#newdecision1" data-toggle="modal">New Decision</a></li>
@@ -37,57 +38,47 @@
       </div>
       <div class="col-md-4">
         <h1>Option 2</h1>
-        <p>This option has only one example hooked up because it works like the current application. The only change with Option 2 is to group the assets by type inside the dropdown. As a result, this menu is exceedingly long.</p>
+        <p>This option has only one example hooked up because it works like the current application. The only change with Option 2 is to group assets by type inside the dropdown. As a result, this menu is long.</p>
         <a href="#" class="btn btn-primary btn-dropdown" data-toggle="dropdown">New Asset</a>
         <ul class="dropdown-menu">
           <li class="dropdown-header">Processes</li>
-          <li><a href="#">Business Process</a></li>
-          <li><a href="#">Business Process (Preview)</a></li>
+          <li><a href="#current" data-toggle="modal">Business Process</a></li>
+          <li><a href="#current" data-toggle="modal">Business Process (Preview)</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">Rules</li>
-          <li><a href="#">DSL definition</a></li>
-          <li><a href="#">DRL file</a></li>
-          <li><a href="#">Rule</a></li>
-          <li><a href="#">Rule Template</a></li>
-          <li><a href="#">Score Card</a></li>
-          <li><a href="#">Variable(s)</a></li>
+          <li><a href="#current" data-toggle="modal">DSL definition</a></li>
+          <li><a href="#current" data-toggle="modal">DRL file</a></li>
+          <li><a href="#current" data-toggle="modal">Rule</a></li>
+          <li><a href="#current" data-toggle="modal">Rule Template</a></li>
+          <li><a href="#current" data-toggle="modal">Score Card</a></li>
+          <li><a href="#current" data-toggle="modal">Variable(s)</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">Models</li>
-          <li><a href="#">Case definition</a></li>
-          <li><a href="#">Data Object</a></li>
-          <li><a href="#">Enumeration</a></li>
+          <li><a href="#current" data-toggle="modal">Case definition</a></li>
+          <li><a href="#current" data-toggle="modal">Data Object</a></li>
+          <li><a href="#current" data-toggle="modal">Enumeration</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">Forms</li>
-          <li><a href="#">Form</a></li>
-          <li><a href="#">Form (Preview)</a></li>
+          <li><a href="#current" data-toggle="modal">Form</a></li>
+          <li><a href="#current" data-toggle="modal">Form (Preview)</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">Decisions</li>
-          <li><a href="#">Decision Table</a></li>
-          <li><a href="#">Decision Table Graph</a></li>
-          <li><a href="#">Decision Tree</a></li>
+          <li><a href="#current" data-toggle="modal">Decision Table</a></li>
+          <li><a href="#current" data-toggle="modal">Decision Table Graph</a></li>
+          <li><a href="#current" data-toggle="modal">Decision Tree</a></li>
           <li class="divider"></li>
           <li class="dropdown-header">More</li>
-          <li><a href="#">File</a></li>
-          <li><a href="#">Namespace</a></li>
-          <li><a href="#">Optimization</a></li>
-          <li><a href="#">Simulation</a></li>
-          <li><a href="#">Work Item</a></li>
+          <li><a href="#current" data-toggle="modal">File</a></li>
+          <li><a href="#current" data-toggle="modal">Namespace</a></li>
+          <li><a href="#current" data-toggle="modal">Optimization</a></li>
+          <li><a href="#current" data-toggle="modal">Simulation</a></li>
+          <li><a href="#current" data-toggle="modal">Work Item</a></li>
         </ul>
       </div>
       <div class="col-md-4">
-        <a href="#" class="btn btn-primary btn-dropdown" data-toggle="dropdown">New Asset</a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-          <li><a href="#">Nedfgdfgdfg</a></li>
-        </ul>
+        <h1>Option 3</h1>
+        <p>Option 3 moves everything to the dialog and removes the dropdown menu completely from the New Asset button. Users will choose their type on the first screen of the dialog. Again, only one option is hooked up.</p>
+        <a href="#everything1" class="btn btn-primary" data-toggle="modal">New Asset</a>
       </div>
     </div>
   </div>
@@ -583,6 +574,183 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
           <a href="#newother1" class="btn btn-default" data-dismiss="modal" data-toggle="modal"><span class="i fa fa-angle-left"></span>Back</a>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- current -->
+  <div class="modal" id="current">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <span class="pficon pficon-close"></span>
+          </button>
+          <h4 class="modal-title">New [Asset Type]</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Package</label>
+            <select class="form-control">
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- everything -->
+  <div class="modal" id="everything1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <span class="pficon pficon-close"></span>
+          </button>
+          <h4 class="modal-title">New Asset</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-4">
+              <h5>Processes</h5>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Business Process</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Business Process (Preview)</label>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <h5>Rules</h5>
+              <div class="radio">
+                <label><input type="radio" name="optradio">DSL definition</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">DRL file</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Rule</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Rule Template</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Score Card</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Variable(s)</label>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <h5>Forms</h5>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Form</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Form (Preview)</label>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-xs-4">
+              <h5>Models</h5>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Case definition</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Data Object</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Enumeration</label>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <h5>Decisions</h5>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Decision Table</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Decision Table Graph</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Decision Tree</label>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <h5>More</h5>
+              <div class="radio">
+                <label><input type="radio" name="optradio">File</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Namespace</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Optimization</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Simulation</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">Work Item</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-default disabled"><span class="i fa fa-angle-left"></span>Back</button>
+          <a href="#everything2" class="btn btn-primary" data-dismiss="modal" data-toggle="modal">Next<span class="i fa fa-angle-right"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="everything2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            <span class="pficon pficon-close"></span>
+          </button>
+          <h4 class="modal-title">New Asset</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Asset Type</label>
+            <p>[Asset Type]</p>
+          </div>
+          <div class="form-group">
+            <label>Name</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Package</label>
+            <select class="form-control">
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+              <option>org.jbpm</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <a href="#everything1" class="btn btn-default" data-dismiss="modal" data-toggle="modal"><span class="i fa fa-angle-left"></span>Back</a>
           <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
         </div>
       </div>
