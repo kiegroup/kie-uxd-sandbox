@@ -1,4 +1,5 @@
 /* navbar and body for all pages */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -22,7 +23,9 @@ body {
 .navbar-nav.navbar-right {
   float: right;
 }
+
 /* other */
+
 h4 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 5px;

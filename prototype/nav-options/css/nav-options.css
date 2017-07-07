@@ -1,13 +1,28 @@
-/* space for the navbar back to repo */
+/* navbar and body for all pages */
 
 body {
   padding-top: 80px;
-  margin: 0 30px 30px 30px;
-  }
-
+}
 .navbar-fixed-top {
   border: 0;
   font-size: 14px;
+}
+.navbar {
+  border-radius: 0;
+  border: 0;
+}
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 20px;
+}
+.navbar-nav.navbar-right {
+  float: right;
 }
 
 /* other */
@@ -15,24 +30,19 @@ body {
 h1 {
   margin-top: 50px;
 }
-
 .control-label {
   width: 100%;
 }
-
 .pficon-user {
   margin-top: 3px;
 }
-
 .navbar-pf .navbar-header {
   border-bottom: 0;
   float: none;
 }
-
 .navbar-pf .navbar-primary {
   border-top: 1px solid #292929;
 }
-
 @media (min-width: 768px) {
   .navbar-pf .navbar-header {
     float: left;
