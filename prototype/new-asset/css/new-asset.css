@@ -1,0 +1,44 @@
+.radio {
+  margin-top: 0;
+}
+
+.navbar-pf .navbar-header {
+  border-bottom: 0;
+  float: none;
+}
+
+.navbar-pf .navbar-primary {
+  border-top: 1px solid #292929;
+  float: left;
+  width: 100%;
+}
+
+.navbar-pf .navbar-toggle {
+  border: 0;
+  margin: 0;
+  padding: 15px 20px;
+}
+
+.navbar-pf a.navbar-brand:hover,
+.navbar-pf a.navbar-brand:active {
+  color: #d1d1d1;
+}
+
+.navbar-pf .navbar-primary.persistent-secondary>li>.navbar-persistent {
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-pf .navbar-utility>li>a {
+    padding: 12px;
+  }
+  .navbar-pf .navbar-utility li.dropdown>.dropdown-toggle {
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-pf .navbar-utility li.dropdown>.dropdown-toggle {
+    padding-left: 20px;
+  }
+}
