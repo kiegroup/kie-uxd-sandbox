@@ -74,7 +74,7 @@
         </ul>
       </div>
     </div>
-    <div class="row" style="margin-top: 40px;">
+    <div class="row">
       <div class="col-md-6">
         <h1>Option 3</h1>
         <p>Option 3 moves everything to the dialog and removes the dropdown menu from the New Asset button.</p>
@@ -85,14 +85,39 @@
         <p>Option 4 would surface the most common options in the dropdown. And a More link would allow them to get to the full list.</p>
         <a href="#" class="btn btn-primary btn-dropdown" data-toggle="dropdown">New Asset</a>
         <ul class="dropdown-menu">
-          <li><a href="#opt4" data-toggle="modal">New Business Process</a></li>
-          <li><a href="#opt4" data-toggle="modal">New Decision Table</a></li>
-          <li><a href="#opt4" data-toggle="modal">New File</a></li>
-          <li><a href="#opt4" data-toggle="modal">New Form</a></li>
-          <li><a href="#opt4" data-toggle="modal">New Rule Template</a></li>
+            <li class="dropdown-header">Recent Assets</li>
+            <li class="divider"></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
           <li class="divider"></li>
           <li><a href="#opt4more" data-toggle="modal">More...</a></li>
         </ul>
+      </div>
+    </div>
+    <div class="row" style="margin-bottom: 200px;">
+      <div class="col-md-6">
+        <h1>Option 5</h1>
+        <p>A combination of numbers 3 and 4. Primary action launches dialog. Recent assets in menu.</p>
+        <div class="btn-group">
+          <a href="#opt4" data-toggle="modal" class="btn btn-primary">New Asset</a>
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header">Recent Assets</li>
+            <li class="divider"></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li><a href="#opt4" data-toggle="modal">New [Recent Asset]</a></li>
+            <li class="divider"></li>
+            <li><a href="#opt4more" data-toggle="modal">All Assets...</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
