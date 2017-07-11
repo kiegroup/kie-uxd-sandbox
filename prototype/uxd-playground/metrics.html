@@ -81,7 +81,7 @@
       <div class="col-xs-3">
         <div class="landingbutton">
           <div class="form-group">
-            <select class="selectpicker form-control" multiple="">
+            <select class="selectpicker form-control" multiple="" data-none-selected-text="No filter applied">
               <option>Mustard</option>
               <option>Ketchup</option>
               <option>Relish</option>
@@ -103,7 +103,7 @@
             </div>
             <div class="col-md-6">
               <div class="form-group" style="margin-top: 15px;">
-                <select class="selectpicker form-control" multiple="">
+                <select class="selectpicker form-control" multiple="" data-none-selected-text="No filter applied">
                   <option>Pere</option>
                   <option>Mark</option>
                   <option>Roger</option>
@@ -155,6 +155,25 @@
     <div class="row" style="margin-top: 10px;">
       <div class="col-md-12">
         <div class="card-pf">
+          <div class="pull-right" style="margin-top: 15px;">
+            <div class="btn-group">
+              <a href="#" class="btn btn-default"><i class="fa fa-file-o"></i></a>
+              <a href="#" class="btn btn-default"><i class="fa fa-file-excel-o"></i></a>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default toolbarbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-columns"></i>
+                </button>
+                <ul class="dropdown-menu table-view-pf-colvis-menu pull-right">
+                  <li><input type="checkbox" checked=""><label>Column Name</label></li>
+                  <li><input type="checkbox" checked=""><label>Column Name</label></li>
+                  <li><input type="checkbox"><label>Column Name</label></li>
+                  <li><input type="checkbox"><label>Column Name</label></li>
+                  <li><input type="checkbox" checked=""><label>Column Name</label></li>
+                  <li><input type="checkbox"><label>Column Name</label></li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <h2 class="card-pf-title">Commit History</h2>
           <div class="card-pf-body">
             <div class="table-responsive">
