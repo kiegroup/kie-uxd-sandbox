@@ -75,13 +75,21 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-xs-9">
         <h1>[Project Name] Metrics</h1>
       </div>
-      <div class="col-xs-6">
+      <div class="col-xs-3">
         <div class="landingbutton">
-          <div class="btn-group">
-            <a href="#" class="btn btn-default">Filter</a>
+          <div class="form-group">
+            <select class="selectpicker form-control" multiple="">
+              <option>Mustard</option>
+              <option>Ketchup</option>
+              <option>Relish</option>
+              <option>Onions</option>
+              <option>Mushrooms</option>
+              <option>Pickles</option>
+              <option>Mayonnaise</option>
+            </select>
           </div>
         </div>
       </div>
@@ -89,12 +97,23 @@
     <div class="row" style="margin-top: 10px;">
       <div class="col-md-6">
         <div class="card-pf">
-          <h2 class="card-pf-title">Commits By Author</h2>
-          <div class="card-pf-body">
-            <div id="bar-chart-1"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="card-pf-title">Contributions By Author</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group" style="margin-top: 15px;">
+                <select class="selectpicker form-control" multiple="">
+                  <option>Pere</option>
+                  <option>Mark</option>
+                  <option>Roger</option>
+                  <option>David</option>
+                </select>
+              </div>
+            </div>
           </div>
-          <div class="card-pf-footer">
-            dfgdg
+          <div class="card-pf-body">
+            <div id="bar-chart-1" style="height: 200px;"></div>
           </div>
         </div>
       </div>
@@ -103,9 +122,6 @@
           <h2 class="card-pf-title">Contribution History</h2>
           <div class="card-pf-body">
             <div id="sparkline-chart-1" class="chart-pf-sparkline"></div>
-          </div>
-          <div class="card-pf-footer">
-            dfgdg
           </div>
         </div>
       </div>
@@ -117,9 +133,6 @@
           <div class="card-pf-body">
             <div id="pie-chart-4" class="example-pie-chart-right-legend"></div>
           </div>
-          <div class="card-pf-footer">
-            dfgdg
-          </div>
         </div>
       </div>
       <div class="col-md-4">
@@ -128,19 +141,13 @@
           <div class="card-pf-body">
             <div id="pie-chart-5" class="example-pie-chart-right-legend"></div>
           </div>
-          <div class="card-pf-footer">
-            dfgdg
-          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card-pf">
           <h2 class="card-pf-title">Commits Per Day</h2>
           <div class="card-pf-body">
-            <div id="bar-chart-8"></div>
-          </div>
-          <div class="card-pf-footer">
-            dfgdg
+            <div id="bar-chart-8" style="height: 162px;"></div>
           </div>
         </div>
       </div>
@@ -291,6 +298,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.14.0/js/patternfly.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
   <script>
   var c3ChartDefaults = $().c3ChartDefaults();
 
@@ -301,7 +309,7 @@
     columns: [
       ['%', 10, 14, 12, 20, 31, 27, 52, 55, 62, 68, 69, 88, 74, 88, 44, 36, 91],
     ],
-    type: 'area'
+    type: 'area',
   };
   var sparklineChart = c3.generate(sparklineChartConfig);
 
