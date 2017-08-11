@@ -18,6 +18,10 @@
       <li style="float: left;"><a href="https://github.com/kiegroup/kie-uxd-sandbox">View on GitHub</a></li>
     </ul>
   </nav>
+  <div class="alert alert-success">
+    <span class="pficon pficon-ok"></span>
+    <strong>Update</strong> Mega menu work can be tracked in <a href="https://issues.jboss.org/browse/BPMSPL-705" class="alert-link">BPMSPL-705</a>.
+  </div>
   <!-- current -->
   <h1 style="margin-top: 0;">Current</h1>
   <nav class="navbar navbar-default navbar-pf">
@@ -34,20 +38,23 @@
     </div>
     <div class="collapse navbar-collapse navbar-collapse-1">
       <ul class="nav navbar-nav navbar-utility">
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-left: 10px;"><i class="fa fa-question"></i></a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nav-item-iconic" id="applications" data-toggle="dropdown" style="padding-left: 12px;">
+            <span title="Applications" class="fa fa-th"></span>
+          </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Help</a></li>
+            <li><a href="#">Application 1</a></li>
+            <li><a href="#">Application 2</a></li>
+            <li><a href="#">Application 3</a></li>
           </ul>
         </li>
+        <li><a href="#help" data-toggle="modal"><i class="fa fa-question"></i></a></li>
         <li><a href="#"><i class="fa fa-cog"></i></a></li>
-        <li><a href="#"><i class="fa fa-info-circle"></i></a></li>
-        <li><a href="#" onclick="myFunction()"><i class="fa fa-medkit"></i></a></li>
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="pficon pficon-user"></span>Brian Johnson <b class="caret"></b></a>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-left: 12px;">Brian Johnson <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Switch to Compact View</a></li>
-            <li><a href="#">Role: analyst</a></li>
-            <li><a href="#">Role: kiemgmt</a></li>
-            <li><a href="#">Role: admin</a></li>
+            <li><a href="#about" data-toggle="modal">About</a></li>
+            <li><a href="#preferences" data-toggle="modal">Preferences</a></li>
+            <li class="divider"></li>
             <li><a href="#">Log Out</a></li>
           </ul>
         </li>
@@ -137,13 +144,24 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-utility">
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="pficon pficon-user"></span>Brian Johnson <b class="caret"></b></a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle nav-item-iconic" id="applications" data-toggle="dropdown" style="padding-left: 12px;">
+            <span title="Applications" class="fa fa-th"></span>
+          </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Another link</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Application 1</a></li>
+            <li><a href="#">Application 2</a></li>
+            <li><a href="#">Application 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#help" data-toggle="modal"><i class="fa fa-question"></i></a></li>
+        <li><a href="#"><i class="fa fa-cog"></i></a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-left: 12px;">Brian Johnson <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#about" data-toggle="modal">About</a></li>
+            <li><a href="#preferences" data-toggle="modal">Preferences</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">Log Out</a></li>
           </ul>
         </li>
       </ul>
@@ -189,7 +207,7 @@
     <div class="collapse navbar-collapse navbar-collapse-3">
       <ul class="nav navbar-nav navbar-utility">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle nav-item-iconic" data-toggle="dropdown" style="padding-left: 12px;">
+          <a href="#" class="dropdown-toggle nav-item-iconic" id="applications" data-toggle="dropdown" style="padding-left: 12px;">
             <span title="Applications" class="fa fa-th"></span>
           </a>
           <ul class="dropdown-menu">
@@ -202,15 +220,8 @@
         <li><a href="#"><i class="fa fa-cog"></i></a></li>
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-left: 12px;">Brian Johnson <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Switch to Compact View</a></li>
-            <li><a href="#">Reset Perspective Layouts</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Version</li>
-            <li style="padding: 1px 10px;">6.5.1.20170515-044102</li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Roles</li>
-            <li style="padding: 1px 10px;">Admin</li>
-            <li style="padding: 1px 10px;">Analyst</li>
+            <li><a href="#about" data-toggle="modal">About</a></li>
+            <li><a href="#preferences" data-toggle="modal">Preferences</a></li>
             <li class="divider"></li>
             <li><a href="#">Log Out</a></li>
           </ul>
@@ -332,15 +343,8 @@
     </div>
   </nav>
   <!-- mega -->
-  <h1>Mega-menu (3)</h1>
-  <div><img src="img/mega5.png" alt="" /></div>
-  <div><img src="img/sree.png" alt="" style="width: 780px; margin-top: 20px;"  /></div>
-  <div><img src="img/redo.png" alt="" style="width: 780px; margin-top: 20px;"  /></div>
-  <!-- mast -->
-  <h1>Masthead Combinations (3)</h1>
-  <div><img src="img/mast1.png" alt="" style="width: 780px; margin-bottom: 20px;" /></div>
-  <div><img src="img/mast2.png" alt="" style="width: 780px; margin-bottom: 20px;" /></div>
-  <div><img src="img/mast3.png" alt="" style="width: 780px; margin-bottom: 20px;" /></div>
+  <h1>Mega Menu</h1>
+  <div><img src="img/mega.png" alt="" /></div>
   <div class="modal fade" id="help">
     <div class="modal-dialog">
       <div class="modal-content">
