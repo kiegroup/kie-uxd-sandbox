@@ -12,6 +12,13 @@ body {
   border-radius: 0;
   border: 0;
 }
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
 .navbar-nav > li > a {
   padding: 20px;
 }
