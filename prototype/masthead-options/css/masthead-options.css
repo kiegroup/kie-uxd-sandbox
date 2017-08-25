@@ -37,6 +37,9 @@ h1 {
 .pficon-user {
   margin-top: 3px;
 }
+.navbar-pf {
+  min-height: 32px;
+}
 .navbar-pf .navbar-header {
   border-bottom: 0;
   float: none;
