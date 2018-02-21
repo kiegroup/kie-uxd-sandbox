@@ -26,7 +26,11 @@ div.dataTables_wrapper div.dataTables_filter {
   text-align: left;
 }
 /* move sorting arrows */
-th.sorting_asc {
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
   margin-top: 4px;
 }
 /* hide footer */
