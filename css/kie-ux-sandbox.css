@@ -1,5 +1,3 @@
-/* navbar and body for all pages */
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -22,18 +20,4 @@ body {
 }
 .navbar-nav.navbar-right {
   float: right;
-}
-
-/* other */
-
-h4 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 5px;
-}
-.text-muted a {
-  color: #9c9c9c;
-  text-decoration: none;
-}
-section {
-  margin-top: 12px;
 }
