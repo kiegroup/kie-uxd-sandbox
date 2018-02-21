@@ -21,3 +21,11 @@ body {
 .navbar-nav.navbar-right {
   float: right;
 }
+/* move search to left */
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+/* hide footer */
+div.dataTables_wrapper div.dataTables_info {
+    display: none;
+}
