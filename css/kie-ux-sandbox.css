@@ -26,7 +26,7 @@ div.dataTables_wrapper div.dataTables_filter {
   text-align: left;
 }
 /* move sorting arrows */
-th.sorting_desc {
+th.sorting_asc {
   margin-top: 4px;
 }
 /* hide footer */
