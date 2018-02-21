@@ -23,9 +23,13 @@ body {
 }
 /* move search to left */
 div.dataTables_wrapper div.dataTables_filter {
-    text-align: left;
+  text-align: left;
+}
+/* move sorting arrows */
+th.sorting_desc {
+  margin-top: 4px;
 }
 /* hide footer */
 div.dataTables_wrapper div.dataTables_info {
-    display: none;
+  display: none;
 }
