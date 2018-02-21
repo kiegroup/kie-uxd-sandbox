@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UXD Sandbox</title>
-  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" media="screen">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.25.1/css/patternfly.min.css" rel="stylesheet" type="text/css" media="screen">
   <link href="css/kie-ux-sandbox.css" rel="stylesheet" type="text/css" media="screen">
 </head>
@@ -41,7 +41,9 @@
   <script type="text/javascript">
   $(document).ready(function() {
     $('#sandbox').DataTable( {
-      "ajax": 'sandbox.txt'
+      "ajax": 'sandbox.txt',
+        paging: false,
+          footer: false
     } );
   } );
   </script>
