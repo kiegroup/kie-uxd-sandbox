@@ -1,7 +1,7 @@
 {
   "data": [
     [
-      "<strong>OptaPlanner Rostering,</strong>",
+      "<a href='http://cnn.com'>OptaPlanner Rostering,</a>",
       "Invision",
       "PLANNER-970"
     ],
