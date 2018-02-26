@@ -46,19 +46,19 @@
       "<a href='https://issues.jboss.org/browse/BPMSPL-789'>BPMSPL-789</a>"
     ],
     [
-      "<a href='/kie-uxd-sandbox/img/DeleteSpace.png '>Delete Space</a>",
+      "<a href='/kie-uxd-sandbox/img/DeleteSpace.png'>Delete Space</a>",
       "PNG",
-      "<a href='https://issues.jboss.org/browse/GUVNOR-3118'>GUVNOR-3118</a>"
+      "<a href='https://issues.jboss.org/browse/AF-721'>AF-721</a>"
     ],
     [
-      "<a href='/kie-uxd-sandbox/img/AddField.png '>Add Field</a>",
+      "<a href='/kie-uxd-sandbox/img/AddField.png'>Add Field</a>",
       "PNG",
       "<a href='https://issues.jboss.org/browse/JBPM-6005'>JBPM-6005</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/AddProject.png'>Add Project</a>",
       "PNG",
-      "<a href='https://issues.jboss.org/browse/GUVNOR-3120'>GUVNOR-3120</a>"
+      "<a href='https://issues.jboss.org/browse/AF-735'>AF-735</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/ClearDiagram.png'>Clear Diagram</a>",
