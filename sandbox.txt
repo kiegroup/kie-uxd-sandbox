@@ -39,7 +39,7 @@
       "<a href='https://redhat.invisionapp.com/share/DMEQH4ZYB'>Pages</a>",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-610'>AF-610</a>"
-    ],,
+    ],
     [
       "<a href='https://redhat.invisionapp.com/share/FSEIZN6DA'>Project Settings</a>",
       "Invision",
