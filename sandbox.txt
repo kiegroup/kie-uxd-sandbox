@@ -1,9 +1,9 @@
 {
   "data": [
     [
-      "<a href='http://cnn.com'>OptaPlanner Rostering,</a>",
+      "<a href='http://cnn.com'>OptaPlanner Rostering</a>",
       "Invision",
-      "PLANNER-970"
+      "<a href='http://cnn.com'>PLANNER-970</a>"
     ],
     [
       "Scalable Workspaces",
