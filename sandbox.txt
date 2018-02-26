@@ -1,39 +1,74 @@
 {
   "data": [
     [
-      "<a href='http://cnn.com'>OptaPlanner Rostering</a>",
+      "<a href='https://redhat.invisionapp.com/share/HWFJI3VPAY9'>OptaPlanner Rostering</a>",
       "Invision",
-      "<a href='http://cnn.com'>PLANNER-970</a>"
+      "<a href='https://issues.jboss.org/browse/PLANNER-970'>PLANNER-970</a>"
     ],
     [
-      "Scalable Workspaces",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces</a>",
       "Invision",
-      "BPMSPL-743 (epic)"
+      "<a href='https://issues.jboss.org/browse/BPMSPL-743'>BPMSPL-743 (epic)</a>"
     ],
     [
-      "Scalable Workspaces: Conflict Resolution",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Conflict Resolution</a>",
       "Invision",
-      "AF-632"
+      "<a href='https://issues.jboss.org/browse/AF-632'>AF-632</a>"
     ],
     [
-      "Scalable Workspaces: Submit Change Request",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Submit Change Request</a>",
       "Invision",
-      "AF-937"
+      "<a href='https://issues.jboss.org/browse/AF-937'>AF-937</a>"
     ],
     [
-      "Scalable Workspaces: Change Request Details",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Change Request Details</a>",
       "Invision",
-      "AF-938"
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
     ],
     [
-      "Scalable Workspaces: Branching",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Branching</a>",
       "Invision",
-      "AF-939"
+      "<a href='https://issues.jboss.org/browse/AF-939'>AF-939</a>"
     ],
     [
-      "Scalable Workspaces: Forking Details",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Forking Details</a>",
       "Invision",
-      "AF-945"
+      "<a href='https://issues.jboss.org/browse/AF-945'>AF-945</a>"
+    ],
+    [
+      "<a href='https://redhat.invisionapp.com/share/DMEQH4ZYB'>Pages</a>",
+      "Invision",
+      "<a href='https://issues.jboss.org/browse/AF-610'>AF-610</a>"
+    ],,
+    [
+      "<a href='https://redhat.invisionapp.com/share/FSEIZN6DA'>Project Settings</a>",
+      "Invision",
+      "<a href='https://issues.jboss.org/browse/BPMSPL-789'>BPMSPL-789</a>"
+    ],
+    [
+      "<a href='/kie-uxd-sandbox/img/DeleteSpace.png '>Delete Space</a>",
+      "PNG",
+      "<a href='https://issues.jboss.org/browse/GUVNOR-3118'>GUVNOR-3118</a>"
+    ],
+    [
+      "<a href='/kie-uxd-sandbox/img/AddField.png '>Add Field</a>",
+      "PNG",
+      "<a href='https://issues.jboss.org/browse/JBPM-6005'>JBPM-6005</a>"
+    ],
+    [
+      "<a href='/kie-uxd-sandbox/img/AddProject.png'>Add Project</a>",
+      "PNG",
+      "<a href='https://issues.jboss.org/browse/GUVNOR-3120'>GUVNOR-3120</a>"
+    ],
+    [
+      "<a href='/kie-uxd-sandbox/img/ClearDiagram.png'>Clear Diagram</a>",
+      "PNG",
+      "<a href='https://issues.jboss.org/browse/JBPM-5803'>JBPM-5803</a>"
+    ],
+    [
+      "<a href='/kie-uxd-sandbox/img/AddColumn.png'>Add Column</a>",
+      "PNG",
+      "N/A"
     ]
   ]
 }
