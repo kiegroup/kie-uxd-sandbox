@@ -1,72 +1,152 @@
 {
   "data": [
     [
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/BAPL-710'>BAPL-710 (epic)</a>"
+    ],
+    [
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2184'>DROOLS-2184 (epic)</a>"
+    ],
+    [
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2154'>DROOLS-2154 (epic)</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/BAPL-709'>BAPL-709 (epic)</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6717'>JBPM-6717</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6716'>JBPM-6716</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6715'>JBPM-6715</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6722'>JBPM-6722</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6760'>JBPM-6760</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6764'>JBPM-6764</a>"
+    ],
+    [
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Axure & design docs within jiras.",
+      "<a href='https://issues.jboss.org/browse/JBPM-6895'>JBPM-6895</a>"
+    ],
+    [
       "<a href='https://redhat.invisionapp.com/share/HWFJI3VPAY9'>OptaPlanner Rostering</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/PLANNER-970'>PLANNER-970</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/BPMSPL-743'>BPMSPL-743 (epic)</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Conflict Resolution</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-632'>AF-632</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Submit Change Request</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-937'>AF-937</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Change Request Details</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Branching</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-939'>AF-939</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Forking Details</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-945'>AF-945</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/DMEQH4ZYB'>Pages</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/AF-610'>AF-610</a>"
     ],
     [
       "<a href='https://redhat.invisionapp.com/share/FSEIZN6DA'>Project Settings</a>",
+      "Matthew",
       "Invision",
       "<a href='https://issues.jboss.org/browse/BPMSPL-789'>BPMSPL-789</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/DeleteSpace.png'>Delete Space</a>",
+      "Matthew",
       "PNG",
       "<a href='https://issues.jboss.org/browse/AF-721'>AF-721</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/AddField.png'>Add Field</a>",
+      "Matthew",
       "PNG",
       "<a href='https://issues.jboss.org/browse/JBPM-6005'>JBPM-6005</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/AddProject.png'>Add Project</a>",
+      "Matthew",
       "PNG",
       "<a href='https://issues.jboss.org/browse/AF-735'>AF-735</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/ClearDiagram.png'>Clear Diagram</a>",
+      "Matthew",
       "PNG",
       "<a href='https://issues.jboss.org/browse/JBPM-5803'>JBPM-5803</a>"
     ],
     [
       "<a href='/kie-uxd-sandbox/img/AddColumn.png'>Add Column</a>",
+      "Matthew",
       "PNG",
       "N/A"
     ]
