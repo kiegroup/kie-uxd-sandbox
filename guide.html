@@ -12,9 +12,9 @@
   <!-- header -->
   <nav class="navbar navbar-default navbar-pf navbar-fixed-top">
     <ul class="nav navbar-nav navbar-primary">
-      <li class="active"><a href="/kie-uxd-sandbox/">Sandbox</a></li>
+      <li><a href="/kie-uxd-sandbox/">Sandbox</a></li>
       <li><a href="/kie-uxd-sandbox/personas.html">Personas</a></li>
-      <li><a href="/kie-uxd-sandbox/guide.html">Style Guide</a></li>
+      <li class="active"><a href="/kie-uxd-sandbox/guide.html">Style Guide</a></li>
       <li><a href="https://github.com/kiegroup/kie-uxd-sandbox">GitHub</a></li>
     </ul>
   </nav>
@@ -22,27 +22,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <table id="sandbox" class="display table table-bordered">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Type</th>
-              <th>Jira</th>
-            </tr>
-          </thead>
-        </table>
+        <p>Coming soon.</p>
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function() {
-    $('#sandbox').DataTable( {
-      "ajax": 'sandbox.txt',
-      paging: false
-    } );
-  } );
-  </script>
 </body>
 </html>
