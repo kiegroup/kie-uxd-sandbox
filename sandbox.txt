@@ -26,6 +26,7 @@
     ],
     [
       "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6717'>JBPM-6717</a>"
     ],
@@ -49,6 +50,7 @@
     ],
     [
       "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6760'>JBPM-6760</a>"
     ],
