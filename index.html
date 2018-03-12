@@ -42,6 +42,7 @@
   $(document).ready(function() {
     $('#sandbox').DataTable( {
       "ajax": 'sandbox.txt',
+      "order": [[ 0, "desc" ]],
       paging: false
     } );
   } );
