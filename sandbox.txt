@@ -44,7 +44,7 @@
     ],
     [
       "2018-01-19",
-      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor:UX design DRD logic table actions</a>",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor: UX design DRD logic table actions</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/DROOLS-2184'>DROOLS-2184</a>"
