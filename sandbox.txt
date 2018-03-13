@@ -8,6 +8,27 @@
       "<a href='https://issues.jboss.org/browse/BAPL-314'>BAPL-314</a>"
     ],
     [
+     "2018-03-09",
+      "<a href='https://issues.jboss.org/browse/AF-916'>Messages:Future design explorations</a>",
+      "Liz",
+      "Sketch wireframes",
+      "<a href='https://issues.jboss.org/browse/AF-916'>AF-916</a>"
+    ],
+    [
+      "2018-03-09",
+      "<a href='https://issues.jboss.org/browse/AF-1078'>Messages:GA enhancements</a>",
+      "Liz",
+      "PSD mockups posted to jira",
+      "<a href='https://issues.jboss.org/browse/AF-1078'>AF-1078</a>"
+    ],
+    [
+      "2018-03-08",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/370a8f00/design/Palette_demo/index.html#g=1&p=home'>Revisit Process Designer Palette</a>",
+      "Liz",
+      "Axure & design docs within jiras",
+      "<a href='https://issues.jboss.org/browse/AF-977'>AF-977</a>"
+    ],
+    [
       "2018-01-19",
       "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor:UX design DRD logic table actions</a>",
       "Liz",
