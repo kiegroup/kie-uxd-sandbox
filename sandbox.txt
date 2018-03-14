@@ -9,77 +9,77 @@
     ],
     [
      "2018-03-06",
-      "<a href='https://issues.jboss.org/browse/JBPM-6996'>Process Designer:Swimlane enhancements for GA</a>",
+      "<a href='https://issues.jboss.org/browse/JBPM-6996'>Process Designer: Swimlane enhancements for GA</a>",
       "Liz",
       "PSD mockups posted to jira",
       "<a href='https://issues.jboss.org/browse/JBPM-6996'>JBPM-6996</a>"
     ],
     [
      "2018-02-18",
-      "<a href='https://issues.jboss.org/browse/AF-631'>Process Designer:Redesign Timer Properties</a>",
+      "<a href='https://issues.jboss.org/browse/AF-631'>Process Designer: Redesign Timer Properties</a>",
       "Liz",
       "Balsamiq wireframes",
       "<a href='https://issues.jboss.org/browse/AF-631'>AF-631</a>"
     ],
     [
      "2018-03-09",
-      "<a href='https://issues.jboss.org/browse/AF-916'>Messages:Future design explorations</a>",
+      "<a href='https://issues.jboss.org/browse/AF-916'>Messages: Future design explorations</a>",
       "Liz",
       "Sketch wireframes",
       "<a href='https://issues.jboss.org/browse/AF-916'>AF-916</a>"
     ],
     [
       "2018-03-09",
-      "<a href='https://issues.jboss.org/browse/AF-1078'>Messages:GA enhancements</a>",
+      "<a href='https://issues.jboss.org/browse/AF-1078'>Messages: GA enhancements</a>",
       "Liz",
       "PSD mockups posted to jira",
       "<a href='https://issues.jboss.org/browse/AF-1078'>AF-1078</a>"
     ],
     [
       "2018-03-08",
-      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/370a8f00/design/Palette_demo/index.html#g=1&p=home'>Proces Designer: Revisit palette design</a>",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/370a8f00/design/Palette_demo/index.html#g=1&p=home'>Process Designer: Revisit palette design</a>",
       "Liz",
       "Axure & design docs within jiras",
       "<a href='https://issues.jboss.org/browse/AF-977'>AF-977</a>"
     ],
     [
       "2018-01-19",
-      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor:UX design DRD logic table actions</a>",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor: UX design DRD logic table actions</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/DROOLS-2184'>DROOLS-2184</a>"
     ],
     [
       "2017-11-28",
-      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor:Design navigation between the DRG and DRD's</a>",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor: Design navigation between the DRG and DRD's</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/DROOLS-2154'>DROOLS-2154</a>"
     ],
     [
       "2017-06-27",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Planning Epic</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Planning Epic</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/BAPL-709'>BAPL-709 (epic)</a>"
     ],
     [
       "2017-12-27",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Drilldown Master Detail experience.</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Drill down Master Detail experience.</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6717'>JBPM-6717</a>"
     ],
     [
       "2017-12-21",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Redesign Advanced Filter UX</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Redesign Advanced Filter UX</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6716'>JBPM-6716</a>"
     ],
     [
       "2017-12-21",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Faceted filtering</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Faceted filtering</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6715'>JBPM-6715</a>"
@@ -93,21 +93,21 @@
     ],
     [
       "2018-01-18",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Results list/table</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Results list/table</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6760'>JBPM-6760</a>"
     ],
     [
       "2018-01-18",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Log details view</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Log details view</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6764'>JBPM-6764</a>"
     ],
     [
       "2018-02-27",
-      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section:Details details...</a>",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Details details...</a>",
       "Liz",
       "Axure & design docs within jiras.",
       "<a href='https://issues.jboss.org/browse/JBPM-6895'>JBPM-6895</a>"
