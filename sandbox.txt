@@ -209,6 +209,42 @@
       "Matthew",
       "PNG",
       "N/A"
-    ]
+    ],
+     [
+       "2018-03-16",
+       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>Palette Redesign</a>",
+       "Sarah",
+       "HTML",
+       "<a href='https://issues.jboss.org/browse/JBPM-6968'>JBPM-6968</a> and <a href='https://issues.jboss.org/browse/AF-1006'>AF-1006</a>"
+     ],
+    [
+     "2018-02-16",
+     "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>CSS for Process Admin filter results list/table implemented with DataTables.net</a>",
+     "Sarah",
+     "HTML",
+     "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
+    ],
+     [
+      "2018-02-16",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/JBPM-6787-process-admin-results-table/mgmt-results-table.html'>Process admin filter results table pulled from Process Instances list and restyled</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
+     ],
+    [
+     "2018-02-16",
+     "<a href='https://rawgit.com/srambach/BxMS-frontend/JBPM-6787-process-admin-results-table/mgmt-results-table--byhand.html'>Process admin filter results table redone with datatables.net</a>",
+     "Sarah",
+     "HTML",
+     "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
+    ],
+    [
+       "2017-12-12",
+       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/42e21802be948ab218239d153c508d8aa3c6d7e5/mgmt-dock.html'>Management Filter Dock</a>",
+       "Sarah",
+       "HTML",
+       "<a href='https://issues.jboss.org/browse/JBPM-6725'>JBPM-6725</a>"
+     ]
+
   ]
 }
