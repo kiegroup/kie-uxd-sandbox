@@ -3,7 +3,7 @@
     [
       "2018-03-02",
       "<a href='https://redhat.invisionapp.com/share/97G4WTY53JR'>Tool for modeling cases</a>",
-      "Matthew",
+      "Matthew/Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/BAPL-314'>BAPL-314</a>"
     ],
