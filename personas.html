@@ -4,36 +4,227 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UXD Sandbox</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly.min.css" rel="stylesheet" type="text/css" media="screen">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly.min.css" rel="stylesheet"
+        type="text/css" media="screen">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css"
+        rel="stylesheet" type="text/css">
   <link href="css/kie-ux-sandbox.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
-  <!-- header -->
-  <nav class="navbar navbar-default navbar-pf navbar-fixed-top">
+<!-- header -->
+<nav class="navbar navbar-default navbar-pf" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      BPM UX Sandbox
+    </a>
+  </div>
+  <div class="collapse navbar-collapse navbar-collapse-1">
     <ul class="nav navbar-nav navbar-primary">
-      <li><a href="/kie-uxd-sandbox/">Sandbox</a></li>
-      <li class="active"><a href="/kie-uxd-sandbox/personas.html">Personas</a></li>
-      <li><a href="/kie-uxd-sandbox/guide.html">Style Guide</a></li>
-      <li><a href="https://github.com/kiegroup/kie-uxd-sandbox">GitHub</a></li>
+      <li>
+        <a href="/kie-uxd-sandbox/">Sandbox</a>
+      </li>
+      <li class="active">
+        <a href="/kie-uxd-sandbox/personas.html">Personas</a>
+      </li>
+      <li>
+        <a href="/kie-uxd-sandbox/guide.html">Style Guide</a>
+      </li>
+      <li class="pull-right">
+        <a href="https://github.com/kiegroup/kie-uxd-sandbox">GitHub</a>
+      </li>
     </ul>
-  </nav>
-  <!-- main -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <ul>
-          <li><a href="img/personas/aimee.jpg">Aimee - Associate Process Manager</a></li>
-          <li><a href="img/personas/cameron.jpg">Cameron - Citizen Developer</a></li>
-          <li><a href="img/personas/cami.jpg">Cami - Case Manager</a></li>
-          <li><a href="img/personas/deepak.jpg">Deepak - Remote Java Developer</a></li>
-          <li><a href="img/personas/irene.png">Irene - IT System Administrator</a></li>
-          <li><a href="img/personas/katie.jpg">Katie - Patient Account Representative</a></li>
-          <li><a href="img/personas/patrick.png">Patrick - Process Administrator</a></li>
-          <li><a href="img/personas/paula.jpg">Paula - Senior Process Manager</a></li>
-        </ul>
+  </div>
+</nav>
+
+<!-- main -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="cards-pf">
+        <div class="row row-cards-pf">
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/aimee.jpg">
+                    <img src="img/personas/aimee_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/aimee.jpg">Aimee</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Associate Process Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/cameron.jpg">
+                    <img src="img/personas/cameron_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/cameron.jpg">Cameron</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Citizen Developer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/cami.jpg">
+                    <img src="img/personas/cami_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/cami.jpg">Cami</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Case Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/deepak.jpg">
+                    <img src="img/personas/deepak_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/deepak.jpg">Deepak</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Remote Java Developer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/irene.jpg">
+                    <img src="img/personas/irene_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/irene.jpg">Irene</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">IT System Administrator</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/katie.jpg">
+                    <img src="img/personas/katie_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/katie.jpg">Katie</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Case Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/patrick.jpg">
+                    <img src="img/personas/patrick_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/patrick.jpg">Patrick</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Process Administrator</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card-pf card-pf-view">
+              <div class="card-pf-body">
+                <div class="card-pf-top-element">
+                  <a href="img/personas/paula.jpg">
+                    <img src="img/personas/paula_portrait.jpg" class="card-pf-icon-circle">
+                  </a>
+                </div>
+                <h2 class="card-pf-title text-center">
+                  <a href="img/personas/paula.jpg">Paula</a>
+                </h2>
+                <div class="card-pf-items text-center">
+                  <div class="card-pf-item">
+                    <span class="card-pf-item-text">Senior Process Manager</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
+
+    <!--<ul>-->
+    <!--<li><a href="img/personas/aimee.jpg">Aimee - Associate Process Manager</a></li>-->
+    <!--<li><a href="img/personas/cameron.jpg">Cameron - Citizen Developer</a></li>-->
+    <!--<li><a href="img/personas/cami.jpg">Cami - Case Manager</a></li>-->
+    <!--<li><a href="img/personas/deepak.jpg">Deepak - Remote Java Developer</a></li>-->
+    <!--<li><a href="img/personas/irene.png">Irene - IT System Administrator</a></li>-->
+    <!--<li><a href="img/personas/katie.jpg">Katie - Patient Account Representative</a></li>-->
+    <!--<li><a href="img/personas/patrick.png">Patrick - Process Administrator</a></li>-->
+    <!--<li><a href="img/personas/paula.jpg">Paula - Senior Process Manager</a></li>-->
+    <!--</ul>-->
   </div>
+</div>
+</div>
 </body>
 </html>
