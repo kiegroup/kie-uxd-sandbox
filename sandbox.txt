@@ -1,9 +1,30 @@
 {
   "data": [
     [
+      "2018-03-23",
+      "<a href='https://redhat.invisionapp.com/share/V5GIAYP93KX'>Settings History</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-1081'>AF-1081</a>"
+    ],
+    [
+      "2018-03-23",
+      "<a href='https://redhat.invisionapp.com/share/NDGI78OGUP4'>Project Settings (Multi Module)</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-936'>AF-936</a>"
+    ],
+    [
+      "2018-03-23",
+      "<a href='https://redhat.invisionapp.com/share/FSEIZN6DA'>Project Settings (Single Module)</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-936'>AF-936</a>"
+    ],
+    [
       "2018-03-02",
       "<a href='https://redhat.invisionapp.com/share/97G4WTY53JR'>Tool for modeling cases</a>",
-      "Matthew/Liz",
+      "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/BAPL-314'>BAPL-314</a>"
     ],
@@ -215,8 +236,15 @@
        "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>Palette Redesign</a>",
        "Sarah",
        "HTML",
-       "<a href='https://issues.jboss.org/browse/JBPM-6968'>JBPM-6968</a> and <a href='https://issues.jboss.org/browse/AF-1006'>AF-1006</a>"
+       "<a href='https://issues.jboss.org/browse/JBPM-6968'>JBPM-6968</a>"
      ],
+    [
+      "2018-03-16",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>Palette Redesign</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-1006'>AF-1006</a>"
+    ],
     [
      "2018-02-16",
      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>CSS for Process Admin filter results list/table implemented with DataTables.net</a>",
