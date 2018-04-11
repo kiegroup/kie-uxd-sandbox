@@ -9,6 +9,9 @@
         float: right;
     }
 }
+.container {
+  margin-top: 20px;
+}
 /* move search to left */
 div.dataTables_wrapper div.dataTables_filter {
   text-align: left;
