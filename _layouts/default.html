@@ -11,13 +11,34 @@
 </head>
 <body>
   <!-- header -->
-  <nav class="navbar navbar-default navbar-pf navbar-fixed-top">
-    <ul class="nav navbar-nav navbar-primary">
-      <li><a href="{{ site.baseurl }}/">Sandbox</a></li>
-      <li><a href="/kie-uxd-sandbox/personas.html">Personas</a></li>
-      <li><a href="/kie-uxd-sandbox/guide.html">Style Guide</a></li>
-      <li><a href="https://github.com/kiegroup/kie-uxd-sandbox">GitHub</a></li>
-    </ul>
+  <nav class="navbar navbar-default navbar-pf">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        UXD Sandbox
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-primary">
+        <li>
+          <a href="{{ site.baseurl }}/">Sandbox</a>
+        </li>
+        <li>
+          <a href="/kie-uxd-sandbox/personas.html">Personas</a>
+        </li>
+        <li>
+          <a href="/kie-uxd-sandbox/guide.html">Style Guide</a>
+        </li>
+        <li class="pull-right-lg">
+          <a href="https://github.com/kiegroup/kie-uxd-sandbox">GitHub</a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- main -->
   <div class="container">
