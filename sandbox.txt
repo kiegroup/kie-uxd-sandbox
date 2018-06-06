@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2018-06-06",
+      "<a href='https://redhat.invisionapp.com/share/BMK9L1O5GWP'>Allow users to add SSH keys</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-1217'>AF-1217</a>"
+    ],
+    [
       "2018-05-31",
       "<a href='/kie-uxd-sandbox/img/ChromePerformance.png'>Chrome Performance</a>",
       "Matthew",
