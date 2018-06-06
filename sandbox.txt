@@ -2,7 +2,7 @@
   "data": [
     [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: Test scenario tool</a>" and <a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>Option B: Test scenario tool</a>",
+      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: Test scenario tool</a>",
       "Liz",
       "InVision",
       "<a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>DROOLS-2532</a>"
