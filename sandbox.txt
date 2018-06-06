@@ -2,14 +2,14 @@
   "data": [
    [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>Option B: Test scenario tool</a>",
+      "<a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>Option B: UX design for Scenario Simulation tool.</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
     ],
    [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: Test scenario tool</a>",
+      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: UX design for Scenario Simulation tool.</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
