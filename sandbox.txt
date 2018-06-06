@@ -43,7 +43,7 @@
       "<a href='https://issues.jboss.org/browse/PLANNER-1070'>PLANNER-1070</a>"
     ],
     [
-      "2018-04-9",
+      "2018-04-09",
       "<a href='https://issues.jboss.org/browse/RHPAM-783'>Form Editor error modal</a>",
       "Liz",
       "Balsamiq",
