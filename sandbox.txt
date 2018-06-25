@@ -2,7 +2,7 @@
   "data": [
     [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/BFKGS2RU8NK#/301890237_Asset'>Option C: UX design for Scenario Simulation tool.</a>",
+      "<a href='https://redhat.invisionapp.com/share/BFKGS2RU8NK'>Option C: UX design for Scenario Simulation tool.</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
