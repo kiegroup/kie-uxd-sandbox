@@ -2,7 +2,7 @@
   "data": [
     [
       "2018-07-12",
-      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/a0fbbfbd95919c9cb495126edf230493094e747b/drools-test-results.html'>In Progress - CSS for test results panel/dock design</a>",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/a0fbbfbd95919c9cb495126edf230493094e747b/drools-test-results.html'>CSS for test results panel/dock design</a>",
       "Sarah",
       "HTML",
       "<a href='https://issues.jboss.org/browse/DROOLS-2707'>DROOLS-2707</a>"
