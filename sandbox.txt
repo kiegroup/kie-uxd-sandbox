@@ -1,6 +1,27 @@
 {
   "data": [
     [
+      "2018-07-19",
+      "<a href='/kie-uxd-sandbox/img/GCE.png'>Graphical Constraint Editor (MVP)</a>",
+      "Matthew",
+      "PNG",
+      "<a href='https://issues.jboss.org/browse/JBPM-7420'>JBPM-7420</a>"
+    ],
+    [
+      "2018-07-19",
+      "<a href='https://redhat.invisionapp.com/share/CVN0FZPA35B'>More swim lanes</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/JBPM-6996'>JBPM-6996</a>"
+    ],
+    [
+      "2018-07-19",
+      "<a href='https://redhat.invisionapp.com/share/PEMXCM99TUM'>OptaWeb Vehicle Routing</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1143'>PLANNER-1143</a>"
+    ],
+    [
       "2018-07-12",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/a0fbbfbd95919c9cb495126edf230493094e747b/drools-test-results.html'>CSS for test results panel/dock design</a>",
       "Sarah",
