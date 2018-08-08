@@ -2,7 +2,7 @@
   "data": [
      [
       "2018-08-08",
-      "<a href='https://issues.jboss.org/browse/DROOLS-2728'> EPIC: UX for custom data-types</a>",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2728'>EPIC: UX for custom data-types</a>",
       "Liz",
       "Balsamiq",
       "<a href='https://issues.jboss.org/browse/DROOLS-2728'>DROOLS-2728</a>"
