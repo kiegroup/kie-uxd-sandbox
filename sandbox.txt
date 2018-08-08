@@ -5,21 +5,21 @@
       "<a href='https://issues.jboss.org/browse/DROOLS-2728'> EPIC: UX for custom data-types</a>",
       "Liz",
       "Balsamiq",
-      "<a href='https://issues.jboss.org/browse/DROOLS-2728</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-2728'</a>"
     ],
      [
       "2018-08-08",
       "<a href='https://issues.jboss.org/browse/DROOLS-2774'>Select a data type from the DMN canvas</a>",
       "Liz",
       "Balsamiq",
-      "<a href='https://issues.jboss.org/browse/DROOLS-2774</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-2774'</a>"
     ],
      [
       "2018-08-08",
       "<a href='https://redhat.invisionapp.com/share/B7NEEUSV539'>"Data Type" tree-grid table interactions</a>",
       "Liz",
       "InVision",
-      "<a href='https://issues.jboss.org/browse/DROOLS-2787</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-2787'</a>"
     ],
     [
       "2018-08-08",
