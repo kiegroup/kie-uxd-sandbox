@@ -16,7 +16,7 @@
     ],
      [
       "2018-08-08",
-      "<a href='https://redhat.invisionapp.com/share/B7NEEUSV539'>"Data Type" tree-grid table interactions</a>",
+      "<a href='https://redhat.invisionapp.com/share/B7NEEUSV539'>Data Type tree-grid table interactions</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2787'>DROOLS-2787</a>"
