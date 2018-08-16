@@ -2,6 +2,13 @@
   "data": [
     [
       "2018-08-12",
+      "<a href='/kie-uxd-sandbox/img/optaplanner_scores.mov'>Scores by Week</a>",
+      "Matthew",
+      "Principle",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1188'>PLANNER-1188</a>"
+    ],
+    [
+      "2018-08-12",
       "<a href='https://redhat.invisionapp.com/share/THNG5P8VQEP'>Sequence Flows</a>",
       "Matthew",
       "InVision",
