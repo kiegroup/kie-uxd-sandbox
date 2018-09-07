@@ -489,6 +489,13 @@
       "Sarah",
       "HTML",
       "<a href='https://issues.jboss.org/browse/BAPL-705'>BAPL-705</a>"
+    ],
+    [
+      "2017-09-06",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/76917b1e79624927c429720363a2e911d5063c11/kie-timeline.html'>Timeline</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-7663'>JBPM-7663</a>"
     ]
   ]
 }
