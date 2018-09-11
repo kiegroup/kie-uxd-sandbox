@@ -496,6 +496,13 @@
       "Sarah",
       "HTML",
       "<a href='https://issues.jboss.org/browse/JBPM-7663'>JBPM-7663</a>"
+    ],
+    [
+      "2017-09-10",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/b546dda494fc91069f3cdba54d8ed52e03214a9e/drools-popover.html'>Process log popover</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2922'>DROOLS-2922</a>"
     ]
   ]
 }
