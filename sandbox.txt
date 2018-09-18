@@ -2,6 +2,13 @@
   "data": [
     [
       "2018-09-17",
+      "<a href='/kie-uxd-sandbox/img/SettingsExperimental.png'>Experimental Features</a>",
+      "Matthew",
+      "PNG",
+      "<a href='https://issues.jboss.org/browse/AF-1538'>AF-1538</a>"
+    ],
+    [
+      "2018-09-17",
       "<a href='https://issues.jboss.org/browse/BAPL-989'>Canvas Zooming</a>",
       "Matthew",
       "Recommendations",
