@@ -10,7 +10,7 @@
     [
       "2018-09-17",
       "<a href='https://docs.google.com/presentation/d/1Jwxue5i-w5U7en9JQ2cytN7tmtaBZ1CT4BGmonGAzQI/edit#slide=id.g1b24741e12_0_0'>Navigator Component</a>",
-      "Matthew, Liz",
+      "Matthew",
       "Google doc",
       "<a href='https://issues.jboss.org/browse/JBPM-7759?jql=labels%20%3D%20NavigatorComponent'>NavigatorComponent</a>"
     ],
