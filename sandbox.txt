@@ -531,6 +531,97 @@
       "Sarah",
       "HTML",
       "<a href='https://issues.jboss.org/browse/DROOLS-2922'>DROOLS-2922</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-ResolveConflicts-sidebyside.html'>Spaces - Resolve conflicts</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-632'>AF-632</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-makebranch.html'>Spaces - Make a new branch</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-978'>AF-978</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-settings.html'>Spaces - Settings</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-933'>AF-933</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-submitChangeRequest.html'>Spaces - Change request</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-937'>AF-937</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestList.html'>Spaces - Change request list</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestOverview.html'>Spaces - Change request overview</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestFiles.html'>Spaces - Change request files</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-empty.html'>Spaces - Empty state</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-contributorlist.html'>Spaces - Contributor list</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist.html'>Spaces - Asset list</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-alert.html'>Spaces - Asset list alert</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2018-02-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-conflict.html'>Spaces - Asset list conflict</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-metrics.html'>Spaces - Metrics</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ]
   ]
 }
