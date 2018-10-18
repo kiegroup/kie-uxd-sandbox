@@ -622,6 +622,20 @@
       "Sarah",
       "HTML",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2018-10-18",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/ed88d7548f931757e0cb9d1100e47c3bce59bc90/drools-test-editor.html'>Scenario Sim - Test Editor tree changes</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3054'>DROOLS-3054</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/drools-confirmation.html'>Conflict dialog</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3053'>DROOLS-3053</a>"
     ]
   ]
 }
