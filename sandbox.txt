@@ -2,7 +2,7 @@
   "data": [
     [
       "2018-10-21",
-      "<a href='/kie-uxd-sandbox/img/stunner_fs.mov'>Stunner Fullscreen</a>",
+      "<a href='/kie-uxd-sandbox/img/stunner_fs.mp4'>Stunner Fullscreen</a>",
       "Matthew",
       "Principle",
       "<a href='https://issues.jboss.org/browse/RHPAM-483'>RHPAM-483</a>"
@@ -23,7 +23,7 @@
     ],
     [
       "2018-10-21",
-      "<a href='https://issues.jboss.org/browse/JBPM-7688'>Keyboard Shortcut</a>",
+      "<a href='https://issues.jboss.org/browse/JBPM-7688'>Keyboard Shortcuts/a>",
       "Matthew",
       "Recommendations",
       "<a href='https://issues.jboss.org/browse/JBPM-7688'>JBPM-7688</a>"
