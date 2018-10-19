@@ -23,7 +23,7 @@
     ],
     [
       "2018-10-21",
-      "<a href='https://issues.jboss.org/browse/JBPM-7688'>Keyboard Shortcuts/a>",
+      "<a href='https://issues.jboss.org/browse/JBPM-7688'>Keyboard Shortcuts</a>",
       "Matthew",
       "Recommendations",
       "<a href='https://issues.jboss.org/browse/JBPM-7688'>JBPM-7688</a>"
