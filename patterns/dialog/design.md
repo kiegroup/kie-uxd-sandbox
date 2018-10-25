@@ -1,3 +1,0 @@
-# Dialog
-
-Coming Soon
