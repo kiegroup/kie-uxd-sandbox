@@ -39,7 +39,7 @@
       "2018-10-18",
       "Scenario bug fixes",
       "Sarah",
-      "HTML",
+      "Documentation",
       "<a href='https://issues.jboss.org/browse/DROOLS-3154'>DROOLS-3154</a>"
     ],
     [
@@ -184,21 +184,21 @@
     ],
     [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/BFKGS2RU8NK'>Option C: UX design for Scenario Simulation tool.</a>",
+      "<a href='https://redhat.invisionapp.com/share/BFKGS2RU8NK'>Option C: UX design for Scenario Simulation tool</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
     ],
     [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>Option B: UX design for Scenario Simulation tool.</a>",
+      "<a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>Option B: UX design for Scenario Simulation tool</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
     ],
     [
       "2018-06-06",
-      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: UX design for Scenario Simulation tool.</a>",
+      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: UX design for Scenario Simulation tool</a>",
       "Liz",
       "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
@@ -317,14 +317,14 @@
     ],
     [
       "2017-06-27",
-      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Planning Epic</a>",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section</a>",
       "Liz",
       "Prototype",
       "<a href='https://issues.jboss.org/browse/BAPL-709'>BAPL-709 (epic)</a>"
     ],
     [
       "2017-12-27",
-      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Drill down Master Detail experience.</a>",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Drill down Master Detail experience</a>",
       "Liz",
       "Prototype",
       "<a href='https://issues.jboss.org/browse/JBPM-6717'>JBPM-6717</a>"
@@ -438,36 +438,29 @@
       "2017-10-13",
       "<a href='/kie-uxd-sandbox/img/DeleteSpace.png'>Delete Space</a>",
       "Matthew",
-      "Mockup",
+      "Mockups",
       "<a href='https://issues.jboss.org/browse/AF-721'>AF-721</a>"
     ],
     [
       "2017-10-16",
       "<a href='/kie-uxd-sandbox/img/AddField.png'>Add Field</a>",
       "Matthew",
-      "Mockup",
+      "Mockups",
       "<a href='https://issues.jboss.org/browse/JBPM-6005'>JBPM-6005</a>"
     ],
     [
       "2017-09-19",
       "<a href='/kie-uxd-sandbox/img/AddProject.png'>Add Project</a>",
       "Matthew",
-      "Mockup",
+      "Mockups",
       "<a href='https://issues.jboss.org/browse/AF-735'>AF-735</a>"
     ],
     [
       "2017-09-11",
       "<a href='/kie-uxd-sandbox/img/ClearDiagram.png'>Clear Diagram</a>",
       "Matthew",
-      "Mockup",
+      "Mockups",
       "<a href='https://issues.jboss.org/browse/JBPM-5803'>JBPM-5803</a>"
-    ],
-    [
-      "2018-03-16",
-      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>Palette Redesign</a>",
-      "Sarah",
-      "HTML",
-      "<a href='https://issues.jboss.org/browse/JBPM-6968'>JBPM-6968</a>"
     ],
     [
       "2018-03-16",
