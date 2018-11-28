@@ -9,31 +9,31 @@
     ],    
     [
       "2018-11-26",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3192'> Research: Full screen Data Types list view to replace dialog presentation. </a>",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3156'> Research: Full screen Data Types list view to replace dialog presentation. </a>",
       "Liz",
       "Mockup",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3192</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-3156'>DROOLS-3156</a>"
     ],    
     [
       "2018-11-26",
       "<a href='https://issues.jboss.org/browse/DROOLS-3192'> Undefined Expression Grid: Re-design 'decision logic' selector</a>",
       "Liz",
       "High fidelity mockup",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3192</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192>DROOLS-3192</a>"
     ],    
     [
       "2018-11-26",
       "<a href='https://issues.jboss.org/browse/DROOLS-3260'> UX research: Grid cell editing interactions (single/dbl click)</a>",
       "Liz",
       "Document",
-      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit</a>"
+      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit>DROOLS-3260</a>"
     ],
     [
       "2018-11-26",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3193'>Multiple data object instances UX: Duplicate DO columns</a>",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3193'>Multiple data object instances UX: Duplicate DO columns>DROOLS-3193</a>",
       "Liz",
       "Multiple",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3193</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-3193'>DROOLS-3193</a>"
     ],
     [
       "2018-10-21",
