@@ -26,7 +26,7 @@
       "<a href='https://issues.jboss.org/browse/DROOLS-3260'> UX research: Grid cell editing interactions (single/dbl click)</a>",
       "Liz",
       "Document",
-      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit'>DROOLS-3260'>DROOLS-3260</a>"
+      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit'>DROOLS-3260</a>"
     ],
     [
       "2018-11-26",
