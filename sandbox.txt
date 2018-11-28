@@ -5,7 +5,7 @@
       "<a href='https://issues.jboss.org/browse/DROOLS-2874'> Select a data type, inline, from DMN decision tables.. </a>",
       "Liz",
       "Multiple",
-      "<a href='https://issues.jboss.org/browse/DROOLS-2874</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-2874'>DROOLS-2874</a>"
     ],    
     [
       "2018-11-26",
@@ -19,14 +19,14 @@
       "<a href='https://issues.jboss.org/browse/DROOLS-3192'> Undefined Expression Grid: Re-design 'decision logic' selector</a>",
       "Liz",
       "High fidelity mockup",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3192>DROOLS-3192</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
     ],    
     [
       "2018-11-26",
       "<a href='https://issues.jboss.org/browse/DROOLS-3260'> UX research: Grid cell editing interactions (single/dbl click)</a>",
       "Liz",
       "Document",
-      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit>DROOLS-3260</a>"
+      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit'>DROOLS-3260'>DROOLS-3260</a>"
     ],
     [
       "2018-11-26",
