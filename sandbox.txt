@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2018-12-15",
+      "<a href='#'>Optaweb-Improvements</a>",
+      "Matthew",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1393'>PLANNER-1393</a>"
+    ],
+    [
       "2018-11-30",
       "<a href='/kie-uxd-sandbox/img/Vehicles.png'>Vehicle Constraints</a>",
       "Matthew",
