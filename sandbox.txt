@@ -107,7 +107,7 @@
     ],
     [
       "2018-11-26",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>Undefined Expression Grid: Re-design decision logic selector</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>Undefined Expression Grid: Re-design decision logic selector</a>",
       "Liz",
       "Mockups",
       "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
