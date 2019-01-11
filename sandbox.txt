@@ -14,28 +14,28 @@
       "Prototype",
       "<a href='https://issues.jboss.org/browse/DROOLS-3098'>DROOLS-3098</a>"
     ],
-       [
+    [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/D5PPHAI8PAG'>Data type constraints: Date</a>",
       "Liz",
       "Prototype",
       "<a href='https://issues.jboss.org/browse/DROOLS-3445'>DROOLS-3445</a>"
     ],
-   [
+    [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/V9PMWILJGAU'>[DMN Editor] UX to support the use of imported models</a>",
       "Liz",
       "Prototype",
       "<a href='https://issues.jboss.org/browse/DROOLS-2999'>DROOLS-2999</a>"
     ],
-   [
+    [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/V9PMWILJGAU'>Data type constraints: Basic interaction/workflow</a>",
       "Liz",
       "Prototype",
       "<a href='https://issues.jboss.org/browse/DROOLS-3446'>DROOLS-3446</a>"
     ],
-  [
+    [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/68PO1LCVE9J'>UX drafts for imported models</a>",
       "Liz",
@@ -371,7 +371,7 @@
       "InVision",
       "<a href='https://issues.jboss.org/browse/AF-1081'>AF-1081</a>"
     ],
-      [
+    [
       "2018-03-23",
       "<a href='https://redhat.invisionapp.com/share/NDGI78OGUP4'>Project Settings (Multi Module)</a>",
       "Matthew",
