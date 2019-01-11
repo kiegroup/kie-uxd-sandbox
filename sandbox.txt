@@ -100,7 +100,7 @@
     ],
     [
       "2018-11-26",
-      "<a href='https://issues.jboss.org/browse/DROOLS-3156'>"Research: Full screen Data Types list view to replace dialog presentation"</a>"
+      "<a href='https://issues.jboss.org/browse/DROOLS-3156'>Research: Full screen Data Types list view to replace dialog presentation</a>",
       "Liz",
       "Mockups",
       "<a href='https://issues.jboss.org/browse/DROOLS-3156'>DROOLS-3156</a>"
@@ -121,7 +121,7 @@
     ],
     [
       "2018-11-26",
-      <a href='https://issues.jboss.org/browse/DROOLS-3193'>"Multiple data object instances UX: Duplicate DO columns"</a>"
+      <a href='https://issues.jboss.org/browse/DROOLS-3193'>Multiple data object instances UX: Duplicate DO columns</a>",
       "Liz",
       "Multiple",
       "<a href='https://issues.jboss.org/browse/DROOLS-3193'>DROOLS-3193</a>"
