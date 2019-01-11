@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2019-01-11",
+      "<a href='https://redhat.invisionapp.com/share/J4PXVEMRGWS'>OptaWeb Vehicle Routing in PF4</a>",
+      "Matthew",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1395'>PLANNER-1395</a>"
+    ],
+    [
       "2019-01-08",
       "<a href='https://redhat.invisionapp.com/share/QKPP3JRPV9E#/338779441_Step2-Reviewthelist'>List Object for Scenario Simulation</a>",
       "Tao Zhu",
