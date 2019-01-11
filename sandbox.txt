@@ -56,6 +56,49 @@
       "Mockups",
       "<a href='https://issues.jboss.org/browse/PLANNER-1351'>PLANNER-1351</a>"
     ],
+     [
+      "2018-11-30",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3388'>EPIC:Scenario Simulation UX</a>",
+      "Liz",
+      "Multiple (various jiras)",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3388'>DROOLS-3388</a>"
+    ],
+ [
+      "2018-10-15",
+      "<a href='https://issues.jboss.org/browse/JBPM-7719'>Proposal for interacting with process instance nodes</a>",
+      "Liz",
+      "Mockup and document",
+      "<a href='https://issues.jboss.org/browse/JBPM-7719'>JBPM-7719</a>"
+    ],
+ [
+      "2018-10-08",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3032'>UX "empty" state for custom data types</a>",
+      "Liz",
+      "Mockup",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3032'>DROOLS-3032</a>"
+    ],
+ 
+[
+      "2018-10-25",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>Undefined Expression Grid: Re-design 'decision logic' selector</a>",
+      "Liz",
+      "Mockup",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3327'>DROOLS-3327</a>"
+    ],
+ [
+      "2018-10-25",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>Undefined Expression Grid: Re-design 'decision logic' selector</a>",
+      "Liz",
+      "Mockup",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
+    ],
+ [
+      "2018-11-06",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3260'>UX research: Grid cell editing interactions (single/dbl click)</a>",
+      "Liz",
+      "Document",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3260'>DROOLS-3260</a>"
+    ],
     [
       "2018-11-26",
       "Select a data type, inline, from DMN decision tables",
