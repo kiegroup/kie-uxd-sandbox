@@ -56,11 +56,11 @@
       "Mockups",
       "<a href='https://issues.jboss.org/browse/PLANNER-1351'>PLANNER-1351</a>"
     ],
-     [
+    [
       "2018-11-30",
       "<a href='https://issues.jboss.org/browse/DROOLS-3388'>EPIC:Scenario Simulation UX</a>",
       "Liz",
-      "Multiple (various jiras)",
+      "Multiple, various jiras",
       "<a href='https://issues.jboss.org/browse/DROOLS-3388'>DROOLS-3388</a>"
     ],
     [
@@ -93,21 +93,21 @@
     ],
     [
       "2018-11-26",
-      "Select a data type, inline, from DMN decision tables",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2874'>Select a data type, inline, from DMN decision tables</a>",
       "Liz",
       "Multiple",
       "<a href='https://issues.jboss.org/browse/DROOLS-2874'>DROOLS-2874</a>"
     ],
     [
       "2018-11-26",
-      "Research: Full screen Data Types list view to replace dialog presentation",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3156'>"Research: Full screen Data Types list view to replace dialog presentation"</a>"
       "Liz",
       "Mockups",
       "<a href='https://issues.jboss.org/browse/DROOLS-3156'>DROOLS-3156</a>"
     ],
     [
       "2018-11-26",
-      "Undefined Expression Grid: Re-design 'decision logic' selector",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>"Undefined Expression Grid: Re-design 'decision logic' selector"</a>"
       "Liz",
       "Mockups",
       "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
@@ -121,7 +121,7 @@
     ],
     [
       "2018-11-26",
-      "Multiple data object instances UX: Duplicate DO columns",
+      <a href='https://issues.jboss.org/browse/DROOLS-3193'>"Multiple data object instances UX: Duplicate DO columns"</a>"
       "Liz",
       "Multiple",
       "<a href='https://issues.jboss.org/browse/DROOLS-3193'>DROOLS-3193</a>"
