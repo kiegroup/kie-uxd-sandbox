@@ -4,42 +4,42 @@
       "2019-01-11",
       "<a href='https://redhat.invisionapp.com/share/J4PXVEMRGWS'>OptaWeb Vehicle Routing in PF4</a>",
       "Matthew",
-      "Prototype",
+      "InVision",
       "<a href='https://issues.jboss.org/browse/PLANNER-1395'>PLANNER-1395</a>"
     ],
     [
       "2019-01-08",
       "<a href='https://redhat.invisionapp.com/share/QKPP3JRPV9E#/338779441_Step2-Reviewthelist'>List Object for Scenario Simulation</a>",
       "Tao Zhu",
-      "Prototype",
+      "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-3098'>DROOLS-3098</a>"
     ],
     [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/D5PPHAI8PAG'>Data type constraints: Date</a>",
       "Liz",
-      "Prototype",
+      "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-3445'>DROOLS-3445</a>"
     ],
     [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/V9PMWILJGAU'>[DMN Editor] UX to support the use of imported models</a>",
       "Liz",
-      "Prototype",
+      "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-2999'>DROOLS-2999</a>"
     ],
     [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/V9PMWILJGAU'>Data type constraints: Basic interaction/workflow</a>",
       "Liz",
-      "Prototype",
+      "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-3446'>DROOLS-3446</a>"
     ],
     [
       "2019-01-07",
       "<a href='https://redhat.invisionapp.com/share/68PO1LCVE9J'>UX drafts for imported models</a>",
       "Liz",
-      "Prototype",
+      "InVision",
       "<a href='https://issues.jboss.org/browse/DROOLS-3029'>DROOLS-3029</a>"
     ],
     [
