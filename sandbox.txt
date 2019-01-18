@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2019-01-16",
+      "<a href="http://bpam-frontend.surge.sh/drools-data-object-popup.html">List/Map Data Object modal</a>,
+      "Sarah",
+      "HTML/CSS",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3474'>DROOLS-3474</a>"
+    ],
+    [
       "2019-01-17",
       "DMN Epic: Design data type constraints UX",
       "Liz",
