@@ -88,21 +88,21 @@
       "2018-10-08",
       "UX empty state for custom data types",
       "Liz",
-      "Mockup",
+      "Mockups",
       "<a href='https://issues.jboss.org/browse/DROOLS-3032'>DROOLS-3032</a>"
     ],
     [
       "2018-10-25",
       "Re-design decision logic selector",
       "Liz",
-      "Mockup",
+      "Mockups",
       "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
     ],
     [
       "2018-11-06",
       "Grid cell editing interactions",
       "Liz",
-      "Document",
+      "Documentation",
       "<a href='https://issues.jboss.org/browse/DROOLS-3260'>DROOLS-3260</a>"
     ],
     [
@@ -172,7 +172,7 @@
       "2018-10-18",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/ed88d7548f931757e0cb9d1100e47c3bce59bc90/drools-test-editor.html'>Scenario Sim - Test Editor tree changes</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-3054'>DROOLS-3054</a>"
     ],
     [
@@ -186,7 +186,7 @@
       "2018-10-12",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/drools-confirmation.html'>Conflict dialog</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-3053'>DROOLS-3053</a>"
     ],
     [
@@ -291,7 +291,7 @@
       "2018-08-08",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/f75eb2191149ab3a01b486bcd373fab3bfa37938/drools-test-editor.html'>CSS for tabs inside the right panel</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-2730'>DROOLS-2730</a>"
     ],
     [
@@ -319,7 +319,7 @@
       "2018-07-12",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/a0fbbfbd95919c9cb495126edf230493094e747b/drools-test-results.html'>CSS for test results panel/dock design</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-2707'>DROOLS-2707</a>"
     ],
     [
@@ -606,49 +606,49 @@
       "2018-03-16",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>Palette Redesign</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-1006'>AF-1006</a>"
     ],
     [
       "2018-02-16",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>CSS for Process Admin filter results list/table implemented with DataTables.net</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
     ],
     [
       "2018-02-16",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/JBPM-6787-process-admin-results-table/mgmt-results-table.html'>Process admin filter results table pulled from Process Instances list and restyled</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
     ],
     [
       "2018-02-16",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/JBPM-6787-process-admin-results-table/mgmt-results-table--byhand.html'>Process admin filter results table redone with datatables.net</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
     ],
     [
       "2017-12-12",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/42e21802be948ab218239d153c508d8aa3c6d7e5/mgmt-dock.html'>Management Filter Dock</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-6725'>JBPM-6725</a>"
     ],
     [
       "2018-07-26",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/mgmt-results--save-filter.html#kieFilterDockBasicState'>Management Filter Dock</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-2784'>DROOLS-2784</a>"
     ],
     [
       "2018-07-26",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/detail-panel-template.html'>Process Editor Detail Panel</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-2784'>DROOLS-2784</a>"
     ],
     [
@@ -669,140 +669,140 @@
       "2018-03-09",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/planner-979-rostering/index.html'>CSS for Rostering Demo</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/PLANNER-979'>PLANNER-979</a>"
     ],
     [
       "2018-03-05",
       "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/JBPM-6903-save-filter/mgmt-results--save-filter.html'>Management Save Filter</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-6903'>JBPM-6903</a>"
     ],
     [
       "2017-12-12",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/management-dock/mgmt-dock.html'>Management Dock</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-6725'>JBPM-6725</a>"
     ],
     [
       "2018-01-31",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/c20c11964c0eb0a4fa024d32448c2c54652d79fa/spaces-assetlist-makebranch.html'>Scalable Workspaces</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-978'>AF-978</a>"
     ],
     [
       "2017-08-07",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/homepage-cleanup/bpm-home.html'>Homepage Cleanup</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/BAPL-705'>BAPL-705</a>"
     ],
     [
       "2018-09-06",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/76917b1e79624927c429720363a2e911d5063c11/kie-timeline.html'>Timeline</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/JBPM-7663'>JBPM-7663</a>"
     ],
     [
       "2018-09-10",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/b546dda494fc91069f3cdba54d8ed52e03214a9e/drools-popover.html'>Process log popover</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/DROOLS-2922'>DROOLS-2922</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-ResolveConflicts-sidebyside.html'>Spaces - Resolve conflicts</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-632'>AF-632</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-makebranch.html'>Spaces - Make a new branch</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-978'>AF-978</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-settings.html'>Spaces - Settings</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-933'>AF-933</a>"
     ],
     [
       "2018-01-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-submitChangeRequest.html'>Spaces - Change request</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-937'>AF-937</a>"
     ],
     [
       "2018-01-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestList.html'>Spaces - Change request list</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
     ],
     [
       "2018-01-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestOverview.html'>Spaces - Change request overview</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
     ],
     [
       "2018-01-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestFiles.html'>Spaces - Change request files</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-empty.html'>Spaces - Empty state</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-contributorlist.html'>Spaces - Contributor list</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist.html'>Spaces - Asset list</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-alert.html'>Spaces - Asset list alert</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ],
     [
       "2018-02-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-conflict.html'>Spaces - Asset list conflict</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ],
     [
       "2017-12-01",
       "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-metrics.html'>Spaces - Metrics</a>",
       "Sarah",
-      "HTML",
+      "HTML/CSS",
       "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
     ]
   ]
