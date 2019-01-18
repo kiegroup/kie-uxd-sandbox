@@ -1,0 +1,820 @@
+{
+  "data": [
+    [
+      "2019-01-16",
+      "<a href='http://bpam-frontend.surge.sh/drools-data-object-popup.html'>List and Map Data Object modal</a>",
+      "Sarah",
+      "HTML/CSS",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3474'>DROOLS-3474</a>"
+    ],
+    [
+      "2019-01-17",
+      "DMN Epic: Design data type constraints UX",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3000'>DROOLS-3000</a>"
+    ],
+    [
+      "2019-01-11",
+      "<a href='https://redhat.invisionapp.com/share/J4PXVEMRGWS'>OptaWeb Vehicle Routing in PF4</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1395'>PLANNER-1395</a>"
+    ],
+    [
+      "2019-01-08",
+      "<a href='https://redhat.invisionapp.com/share/QKPP3JRPV9E#/338779441_Step2-Reviewthelist'>List Object for Scenario Simulation</a>",
+      "Tao Zhu",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3098'>DROOLS-3098</a>"
+    ],
+    [
+      "2019-01-07",
+      "<a href='https://redhat.invisionapp.com/share/D5PPHAI8PAG'>Data type constraints: Date</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3445'>DROOLS-3445</a>"
+    ],
+    [
+      "2019-01-07",
+      "<a href='https://redhat.invisionapp.com/share/V9PMWILJGAU'>[DMN Editor] UX to support the use of imported models</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2999'>DROOLS-2999</a>"
+    ],
+    [
+      "2019-01-07",
+      "<a href='https://redhat.invisionapp.com/share/V9PMWILJGAU'>Data type constraints: Basic interaction/workflow</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3446'>DROOLS-3446</a>"
+    ],
+    [
+      "2019-01-07",
+      "<a href='https://redhat.invisionapp.com/share/68PO1LCVE9J'>UX drafts for imported models</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3029'>DROOLS-3029</a>"
+    ],
+    [
+      "2018-12-15",
+      "<a href='https://wrnkld.github.io/OptaPlanner/'>OptaWeb Improvements</a>",
+      "Matthew",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1393'>PLANNER-1393</a>"
+    ],
+    [
+      "2018-11-30",
+      "<a href='/kie-uxd-sandbox/img/Vehicles.png'>Vehicle Constraints</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1351'>PLANNER-1351</a>"
+    ],
+    [
+      "2018-11-30",
+<<<<<<< HEAD:sandbox.txt
+      "Scenario Simulation UX",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3388'>DROOLS-3388 (epic)</a>"
+=======
+      "EPIC:Scenario Simulation UX",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3388'>DROOLS-3388</a>"
+>>>>>>> upstream/master:sandbox.json
+    ],
+    [
+      "2018-10-15",
+      "Proposal for interacting with process instance nodes",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/JBPM-7719'>JBPM-7719</a>"
+    ],
+    [
+      "2018-10-08",
+      "UX empty state for custom data types",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3032'>DROOLS-3032</a>"
+    ],
+    [
+      "2018-10-25",
+      "Re-design decision logic selector",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
+    ],
+    [
+      "2018-11-06",
+      "Grid cell editing interactions",
+      "Liz",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3260'>DROOLS-3260</a>"
+    ],
+    [
+      "2018-11-26",
+      "Select a data type, inline, from DMN decision tables",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2874'>DROOLS-2874</a>"
+    ],
+    [
+      "2018-11-26",
+<<<<<<< HEAD:sandbox.txt
+      "Research: Full screen Data Types list view to replace dialog presentation",
+=======
+      "Full screen Data Types list view to replace dialog presentation",
+>>>>>>> upstream/master:sandbox.json
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3156'>DROOLS-3156</a>"
+    ],
+    [
+      "2018-11-26",
+      "Undefined Expression Grid: Re-design decision logic selector",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3192'>DROOLS-3192</a>"
+    ],
+    [
+      "2018-11-26",
+      "<a href='https://docs.google.com/document/d/1ZXlOjR-bI-Bkkusn-CA3f-0ILyyh8tSZY1hg5ue69TA/edit'>UX research: Grid cell editing interactions (single/dbl click)</a>",
+      "Liz",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3260'>DROOLS-3260</a>"
+    ],
+    [
+      "2018-11-26",
+      "Multiple data object instances UX: Duplicate DO columns",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3193'>DROOLS-3193</a>"
+    ],
+    [
+      "2018-10-21",
+      "<a href='/kie-uxd-sandbox/img/stunner_fs.mp4'>Stunner Fullscreen</a>",
+      "Matthew",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/RHPAM-483'>RHPAM-483</a>"
+    ],
+    [
+      "2018-10-21",
+      "<a href='https://docs.google.com/presentation/d/1W8R0Pko9HTM-cSERlHHOIH1wlVw0s6xC6mxQgqlttCg/'>Case Modeler UX Improvements</a>",
+      "Matthew",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/JBPM-7845'>JBPM-7845</a>"
+    ],
+    [
+      "2018-10-21",
+      "<a href='https://redhat.invisionapp.com/share/C8OFERSEAD3'>Process Instance Migration</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/JBPM-7828'>JBPM-7828</a>"
+    ],
+    [
+      "2018-10-21",
+      "Keyboard Shortcuts",
+      "Matthew",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/JBPM-7688'>JBPM-7688</a>"
+    ],
+    [
+      "2018-10-18",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/ed88d7548f931757e0cb9d1100e47c3bce59bc90/drools-test-editor.html'>Scenario Sim - Test Editor tree changes</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3054'>DROOLS-3054</a>"
+    ],
+    [
+      "2018-10-18",
+      "Scenario bug fixes",
+      "Sarah",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3154'>DROOLS-3154</a>"
+    ],
+    [
+      "2018-10-12",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/drools-confirmation.html'>Conflict dialog</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3053'>DROOLS-3053</a>"
+    ],
+    [
+      "2018-09-17",
+      "<a href='/kie-uxd-sandbox/img/SettingsExperimental.png'>Experimental Features</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/AF-1538'>AF-1538</a>"
+    ],
+    [
+      "2018-09-17",
+      "Canvas Zooming",
+      "Matthew",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/BAPL-989'>BAPL-989 (epic)</a>"
+    ],
+    [
+      "2018-09-17",
+      "<a href='https://docs.google.com/presentation/d/1Jwxue5i-w5U7en9JQ2cytN7tmtaBZ1CT4BGmonGAzQI/edit#slide=id.g1b24741e12_0_0'>Navigator Component</a>",
+      "Matthew",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/JBPM-7759?jql=labels%20%3D%20NavigatorComponent'>NavigatorComponent</a>"
+    ],
+    [
+      "2018-09-17",
+      "Pan Canvas",
+      "Matthew",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/JBPM-7429'>JBPM-7429</a>"
+    ],
+    [
+      "2018-08-30",
+      "UX design for the contextual menus",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2916'>DROOLS-2916</a>"
+    ],
+    [
+      "2018-08-30",
+      "UX research/review: Proposal for interacting with process instance nodes",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/JBPM-7631'>JBPM-7631</a>"
+    ],
+    [
+      "2018-08-30",
+      "Select a data type, inline, from DMN decision tables",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2874'>DROOLS-2874</a>"
+    ],
+    [
+      "2018-08-30",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/52e0e77e/design/dtDemoAddOrder/index.html#p=auto-scroll'>Data Type UX - dialog enhancements: Add and Reorder</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2888'>DROOLS-2888</a>"
+    ],
+    [
+      "2018-08-12",
+      "<a href='/kie-uxd-sandbox/img/optaplanner_scores.mov'>Scores by Week</a>",
+      "Matthew",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1188'>PLANNER-1188</a>"
+    ],
+    [
+      "2018-08-12",
+      "<a href='https://redhat.invisionapp.com/share/THNG5P8VQEP'>Sequence Flows</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/JBPM-5566'>JBPM-5566</a>"
+    ],
+    [
+      "2018-08-08",
+      "UX for custom data-types",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2728'>DROOLS-2728</a>"
+    ],
+    [
+      "2018-08-08",
+      "Select a data type from the DMN canvas",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2774'>DROOLS-2774</a>"
+    ],
+    [
+      "2018-08-08",
+      "<a href='https://redhat.invisionapp.com/share/B7NEEUSV539'>Data Type tree-grid table interactions</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2787'>DROOLS-2787</a>"
+    ],
+    [
+      "2018-08-08",
+      "View a simple, structured or compound data type",
+      "Liz",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2738'>DROOLS-2738</a>"
+    ],
+    [
+      "2018-08-08",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/f75eb2191149ab3a01b486bcd373fab3bfa37938/drools-test-editor.html'>CSS for tabs inside the right panel</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2730'>DROOLS-2730</a>"
+    ],
+    [
+      "2018-07-19",
+      "<a href='/kie-uxd-sandbox/img/GCE.png'>Graphical Constraint Editor (MVP)</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/JBPM-7420'>JBPM-7420</a>"
+    ],
+    [
+      "2018-07-19",
+      "<a href='https://redhat.invisionapp.com/share/CVN0FZPA35B'>More swim lanes</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/JBPM-6996'>JBPM-6996</a>"
+    ],
+    [
+      "2018-07-19",
+      "<a href='https://redhat.invisionapp.com/share/PEMXCM99TUM'>OptaWeb Vehicle Routing</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1143'>PLANNER-1143</a>"
+    ],
+    [
+      "2018-07-12",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/a0fbbfbd95919c9cb495126edf230493094e747b/drools-test-results.html'>CSS for test results panel/dock design</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2707'>DROOLS-2707</a>"
+    ],
+    [
+      "2018-06-06",
+      "<a href='https://redhat.invisionapp.com/share/BFKGS2RU8NK'>Option C: UX design for Scenario Simulation tool</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
+    ],
+    [
+      "2018-06-06",
+      "<a href='https://redhat.invisionapp.com/share/EPKBY6M64KJ'>Option B: UX design for Scenario Simulation tool</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
+    ],
+    [
+      "2018-06-06",
+      "<a href='https://redhat.invisionapp.com/share/DQK9S4GGVSR'>Option A: UX design for Scenario Simulation tool</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2532'>DROOLS-2532</a>"
+    ],
+    [
+      "2018-06-06",
+      "<a href='https://redhat.invisionapp.com/share/BMK9L1O5GWP'>Allow users to add SSH keys</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-1217'>AF-1217</a>"
+    ],
+    [
+      "2018-06-01",
+      "UX suggestions for communicating error",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/RHPAM-902'>RHPAM-902</a>"
+    ],
+    [
+      "2018-05-31",
+      "<a href='/kie-uxd-sandbox/img/ChromePerformance.png'>Chrome Performance</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/JBPM-7320'>JBPM-7320</a>"
+    ],
+    [
+      "2018-04-18",
+      "<a href='https://docs.google.com/document/d/1IpDEXFChyQbWABrpkYBNmYaC38WEgqt8gAooXXd2kuY/'>OptaShift: Employee Rostering Usability Testing</a>",
+      "Matthew",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/PLANNER-1070'>PLANNER-1070</a>"
+    ],
+    [
+      "2018-04-09",
+      "Form Editor error modal",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/RHPAM-783'>RHPAM-783</a>"
+    ],
+    [
+      "2018-03-23",
+      "<a href='https://redhat.invisionapp.com/share/V5GIAYP93KX'>Settings History</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-1081'>AF-1081</a>"
+    ],
+    [
+      "2018-03-23",
+      "<a href='https://redhat.invisionapp.com/share/NDGI78OGUP4'>Project Settings (Multi Module)</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-936'>AF-936</a>"
+    ],
+    [
+      "2018-03-23",
+      "<a href='https://redhat.invisionapp.com/share/FSEIZN6DA'>Project Settings (Single Module)</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-936'>AF-936</a>"
+    ],
+    [
+      "2018-03-02",
+      "<a href='https://redhat.invisionapp.com/share/97G4WTY53JR'>Tool for modeling cases</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/BAPL-314'>BAPL-314</a>"
+    ],
+    [
+      "2018-03-06",
+      "Process Designer: Swimlane enhancements for GA",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/JBPM-6996'>JBPM-6996</a>"
+    ],
+    [
+      "2018-02-18",
+      "Process Designer: Redesign Timer Properties",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/AF-631'>AF-631</a>"
+    ],
+    [
+      "2018-03-09",
+      "Messages: Future design explorations",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/AF-916'>AF-916</a>"
+    ],
+    [
+      "2018-03-09",
+      "Messages: GA enhancements",
+      "Liz",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/AF-1078'>AF-1078</a>"
+    ],
+    [
+      "2018-03-08",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/370a8f00/design/Palette_demo/index.html#g=1&p=home'>Process Designer: Revisit palette design</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/AF-977'>AF-977</a>"
+    ],
+    [
+      "2018-01-19",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor: UX design DRD logic table actions</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2184'>DROOLS-2184</a>"
+    ],
+    [
+      "2017-11-28",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/43bdff12/design/DMN/index.html#g=1&p=drg'>DMN Editor: Design navigation between the DRG and DRD's</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2154'>DROOLS-2154</a>"
+    ],
+    [
+      "2017-06-27",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/BAPL-709'>BAPL-709 (epic)</a>"
+    ],
+    [
+      "2017-12-27",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Drill down Master Detail experience</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6717'>JBPM-6717</a>"
+    ],
+    [
+      "2017-12-21",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Redesign Advanced Filter UX</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6716'>JBPM-6716</a>"
+    ],
+    [
+      "2017-12-21",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Faceted filtering</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6715'>JBPM-6715</a>"
+    ],
+    [
+      "2018-01-08",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: List/table view preferences</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6722'>JBPM-6722</a>"
+    ],
+    [
+      "2018-01-18",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Results list/table</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6760'>JBPM-6760</a>"
+    ],
+    [
+      "2018-01-18",
+      "<a href='https://rawgit.com/lclay2/bxms-uxd-sandbox/master/design/Manage-section/home.html'>Manage Section: Log details view</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6764'>JBPM-6764</a>"
+    ],
+    [
+      "2018-02-27",
+      "<a href='https://cdn.rawgit.com/lclay2/bxms-uxd-sandbox/3b582878/design/Manage-section/home.html'>Manage Section: Details details...</a>",
+      "Liz",
+      "Prototype",
+      "<a href='https://issues.jboss.org/browse/JBPM-6895'>JBPM-6895</a>"
+    ],
+    [
+      "2018-02-27",
+      "<a href='https://redhat.invisionapp.com/share/HWFJI3VPAY9'>OptaPlanner Rostering</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/PLANNER-970'>PLANNER-970</a>"
+    ],
+    [
+      "2018-01-27",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/BPMSPL-743'>BPMSPL-743 (epic)</a>"
+    ],
+    [
+      "2018-01-27",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Conflict Resolution</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-632'>AF-632</a>"
+    ],
+    [
+      "2018-01-27",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Submit Change Request</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-937'>AF-937</a>"
+    ],
+    [
+      "2018-01-27",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Change Request Details</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2018-01-27",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Branching</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-939'>AF-939</a>"
+    ],
+    [
+      "2018-01-27",
+      "<a href='https://redhat.invisionapp.com/share/SWDP3OVEJ'>Scalable Workspaces: Forking Details</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-945'>AF-945</a>"
+    ],
+    [
+      "2017-12-07",
+      "<a href='https://redhat.invisionapp.com/share/DMEQH4ZYB'>Pages</a>",
+      "Matthew",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/AF-610'>AF-610</a>"
+    ],
+    [
+      "2017-11-15",
+      "<a href='https://redhat.invisionapp.com/share/FSEIZN6DA'>Project Settings</a>",
+      "Matthew",
+      "Invision",
+      "<a href='https://issues.jboss.org/browse/BPMSPL-789'>BPMSPL-789</a>"
+    ],
+    [
+      "2017-10-13",
+      "<a href='/kie-uxd-sandbox/img/DeleteSpace.png'>Delete Space</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/AF-721'>AF-721</a>"
+    ],
+    [
+      "2017-10-16",
+      "<a href='/kie-uxd-sandbox/img/AddField.png'>Add Field</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/JBPM-6005'>JBPM-6005</a>"
+    ],
+    [
+      "2017-09-19",
+      "<a href='/kie-uxd-sandbox/img/AddProject.png'>Add Project</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/AF-735'>AF-735</a>"
+    ],
+    [
+      "2017-09-11",
+      "<a href='/kie-uxd-sandbox/img/ClearDiagram.png'>Clear Diagram</a>",
+      "Matthew",
+      "Mockups",
+      "<a href='https://issues.jboss.org/browse/JBPM-5803'>JBPM-5803</a>"
+    ],
+    [
+      "2018-03-16",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>Palette Redesign</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-1006'>AF-1006</a>"
+    ],
+    [
+      "2018-02-16",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/213acf1133d1bc99e29e2f29cd7686a80e294fa9/kie-palette.html'>CSS for Process Admin filter results list/table implemented with DataTables.net</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
+    ],
+    [
+      "2018-02-16",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/JBPM-6787-process-admin-results-table/mgmt-results-table.html'>Process admin filter results table pulled from Process Instances list and restyled</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
+    ],
+    [
+      "2018-02-16",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/JBPM-6787-process-admin-results-table/mgmt-results-table--byhand.html'>Process admin filter results table redone with datatables.net</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6787'>JBPM-6787</a>"
+    ],
+    [
+      "2017-12-12",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/42e21802be948ab218239d153c508d8aa3c6d7e5/mgmt-dock.html'>Management Filter Dock</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6725'>JBPM-6725</a>"
+    ],
+    [
+      "2018-07-26",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/mgmt-results--save-filter.html#kieFilterDockBasicState'>Management Filter Dock</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2784'>DROOLS-2784</a>"
+    ],
+    [
+      "2018-07-26",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/detail-panel-template.html'>Process Editor Detail Panel</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2784'>DROOLS-2784</a>"
+    ],
+    [
+      "2018-08-17",
+      "<a href='https://docs.google.com/document/d/1a8kxI9FAvoDlR_B9zbMGQ6wG52bzcfGW5fbSCf_jzBk/edit'>Drag and Drop A11y</a>",
+      "Sarah",
+      "Documentation",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2889'>DROOLS-2889</a>"
+    ],
+    [
+      "2017-12-12",
+      "<a href='https://github.com/BootstrapJBPM/jbpm-bootstrap-service/pull/1'>UI design for application to generate applications</a>",
+      "Sarah",
+      "Multiple",
+      "<a href='https://issues.jboss.org/browse/JBPM-7484'>JBPM-7484</a>"
+    ],
+    [
+      "2018-03-09",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/planner-979-rostering/index.html'>CSS for Rostering Demo</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/PLANNER-979'>PLANNER-979</a>"
+    ],
+    [
+      "2018-03-05",
+      "<a href='https://cdn.rawgit.com/srambach/BxMS-frontend/JBPM-6903-save-filter/mgmt-results--save-filter.html'>Management Save Filter</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6903'>JBPM-6903</a>"
+    ],
+    [
+      "2017-12-12",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/management-dock/mgmt-dock.html'>Management Dock</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-6725'>JBPM-6725</a>"
+    ],
+    [
+      "2018-01-31",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/c20c11964c0eb0a4fa024d32448c2c54652d79fa/spaces-assetlist-makebranch.html'>Scalable Workspaces</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-978'>AF-978</a>"
+    ],
+    [
+      "2017-08-07",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/homepage-cleanup/bpm-home.html'>Homepage Cleanup</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/BAPL-705'>BAPL-705</a>"
+    ],
+    [
+      "2018-09-06",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/76917b1e79624927c429720363a2e911d5063c11/kie-timeline.html'>Timeline</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/JBPM-7663'>JBPM-7663</a>"
+    ],
+    [
+      "2018-09-10",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/b546dda494fc91069f3cdba54d8ed52e03214a9e/drools-popover.html'>Process log popover</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-2922'>DROOLS-2922</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-ResolveConflicts-sidebyside.html'>Spaces - Resolve conflicts</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-632'>AF-632</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-makebranch.html'>Spaces - Make a new branch</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-978'>AF-978</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-settings.html'>Spaces - Settings</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-933'>AF-933</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-submitChangeRequest.html'>Spaces - Change request</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-937'>AF-937</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestList.html'>Spaces - Change request list</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestOverview.html'>Spaces - Change request overview</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2018-01-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-changeRequestFiles.html'>Spaces - Change request files</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-938'>AF-938</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-empty.html'>Spaces - Empty state</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-contributorlist.html'>Spaces - Contributor list</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist.html'>Spaces - Asset list</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-alert.html'>Spaces - Asset list alert</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2018-02-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-assetlist-conflict.html'>Spaces - Asset list conflict</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ],
+    [
+      "2017-12-01",
+      "<a href='https://rawgit.com/srambach/BxMS-frontend/master/spaces-metrics.html'>Spaces - Metrics</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/AF-580'>AF-580</a>"
+    ]
+  ]
+}
