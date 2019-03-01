@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2019-02-28",
+      "<a href='http://bpam-frontend.surge.sh/drools-test-editor-settings.html'>Settings panel and rearranged icons in sidebar</a>",
+      "Sarah",
+      "HTML/CSS",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3675'>DROOLS-3675</a>"
+    ],
+    [
       "2019-01-16",
       "<a href='http://bpam-frontend.surge.sh/drools-data-object-popup.html'>List modal using treeview</a><br/><a href='http://bpam-frontend.surge.sh/drools-data-object-popup--mapping.html'>Map Data Object modal</a>",
       "Sarah",
