@@ -1,6 +1,20 @@
 {
   "data": [
-     [
+    [
+      "2019-03-11",
+      "<a href='https://redhat.invisionapp.com/share/JSQRRG2ZU8K#/screens/349631211_Doc1'>DMN: UX for documentation reports</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3659'>DROOLS-3659</a>"
+    ], 
+    [
+      "2019-03-11",
+      "<a href='https://redhat.invisionapp.com/share/SFQT5JRMAQ4'>Enhance data type restrictions UX - Decision Table properties</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3077'>DROOLS-3077</a>"
+    ],
+    [
       "2019-03-11",
       "<a href='https://redhat.invisionapp.com/share/VFQVEMNQ3DY#/350720313_1'>Kie Base and Kie Session Save Button is totally hidden.</a>",
       "Liz",
