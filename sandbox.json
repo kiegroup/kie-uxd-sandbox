@@ -1,5 +1,12 @@
 {
   "data": [
+     [
+      "2019-03-11",
+      "<a href='https://redhat.invisionapp.com/share/VFQVEMNQ3DY#/350720313_1'>Kie Base and Kie Session Save Button is totally hidden.</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/RHPAM-1930'>RHPAM-1930</a>"
+    ],
     [
       "2019-02-28",
       "<a href='http://bpam-frontend.surge.sh/drools-test-editor-settings.html'>Settings panel and rearranged icons in sidebar</a>",
