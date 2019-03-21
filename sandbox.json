@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2019-03-22",
+      "<a href='http://bpam-frontend.surge.sh/drools-test-editor-coverage.html'>Test scenario coverage report</a>",
+      "Sarah",
+      "HTML",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3741'>DROOLS-3741</a>"
+    ], 
+    [
       "2019-03-11",
       "Unify file already exists dialog message",
       "Liz",
