@@ -1,6 +1,20 @@
 {
   "data": [
     [
+      "2019-04-04",
+      "DMN Navigator panel: Imported graph components panel UX",
+      "Liz",
+      "Mockup",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3565'>DROOLS-3565</a>"
+    ], 
+    [
+      "2019-04-04",
+      "[UX] Uploading of multiple documents for Human Task forms",
+      "Liz",
+      "Mockup",
+      "<a href='https://issues.jboss.org/browse/AF-1898'>AF-1898</a>"
+    ], 
+    [
       "2019-03-22",
       "<a href='http://bpam-frontend.surge.sh/drools-test-editor-coverage.html'>Test scenario coverage report</a>",
       "Sarah",
