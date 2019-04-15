@@ -1,6 +1,13 @@
 {
   "data": [
     [
+      "2019-04-15",
+      "<a href='https://redhat.invisionapp.com/share/FERHG55ZAPH#/screens/357465983'>DMN:Add a nested row to a new Structured data type by default</a>",
+      "Liz",
+      "InVision",
+      "<a href='https://issues.jboss.org/browse/DROOLS-3854'>DROOLS-3854</a>"
+    ],
+    [
       "2019-04-04",
       "DMN Navigator panel: Imported graph components panel UX",
       "Liz",
